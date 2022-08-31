@@ -1,108 +1,379 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tica Tica's Blind Box
+(Developer: Christopher Faherty)
 
-Welcome USER_NAME,
+![This is an screenshot of the responsive design image]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live Webpage](https://chrisfaherty.github.io/CI_PP2_SCC/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Content
 
-## Gitpod Reminders
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Return User Goals](#returning-user)
+    3. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colour)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Framework and Tools](#framework-and-tools)
+5. [Features](#features)
+6. [Testing](#testing)
+    1. [Testing user stories](#testing-user-stories)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### User Goals
+* Finding a Way to quickly calculate the sum of items
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner Goals
+* Provide a way for small cafe owners to calculate the sume of items effectivally.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## User Experience
 
-Another blue button should appear to click: _Open Browser_.
+### Target Audience
+* People with small cafes or stores
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Requirements and Expectations
+* A intuative navigation bar.
+* All relevent information can be found with out an issue.
+* All buttons can be pressed easily and are large enough on all screen sizes.
+* Straight forward way to update the pricing for each item.
+* A site that is Accessability focused
+* A clear method to contact support.
 
-To log into the Heroku toolbelt CLI:
+### User Stories
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### First-time  User
+1. As a first time user, I want to be able to intuatively tell how I use the app.
+2. As a first time user, I want to be able to clear the calculation with one button.
+3. As a first time user, I want to know the contact information.
+4. As a first time user, I want to know how to set up the check out screen.
+5. As a first time user, I want to be able to update my pricing with out contacting support.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Returning User
+6. As a returning user, I want to be able to quickly set up the app for the day. 
+7. As a returning user, I want to be able to access the social media links.
+8. As a returning user, I want to know the opening times.
+9. As a returning user , I want to be able to contact the the team.
+10. As a returning user, I want to be able to see the updated photos in the gallery.
 
-------
+#### Site Owner
+11. As the site owner, I want users to keep up to date with package changes.
+12. As the site owner, I want users to be able to see the weekly events.
+13. As the site owner, I want users to be able to subscribe to the package they want.
+14. As the site owner, I want users to be able to contact us.
 
-## Release History
+## Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Design Choices
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Colour
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Fonts
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Structure
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<details><summary>Items</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Checkout</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages
+* HTML
+* CSS
+* JavaScript
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Framework and Tools
+* Git
+* GitHub
+* Gitpod
+* Tinypng
+* Favicon.io
+* Font Awosome
+* Google Fonts
+* Balsamiq
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Existing Features
 
-## FAQ about the uptime script
+* Navigation Bar
+    * xxxxxx
 
-**Why have you added this script?**
+![This is an screenshot of the navigation bar]()
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* The Checkout Page
+    * xxxxxxxx
 
-**How will this affect me?**
+![This is an screenshot of the landing page]()
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The Footer 
+    * xxxxxxxx
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![This is an screenshot of the footer section]()
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* Items Page
+    * xxxxxxxx
 
-**So….?**
+![This is an screenshot of the subscription form]()
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Features Left to Implement
+* A feature that I would like to implement in the future is to add a premium service where they can add more items and store all of the orders on a console page,
 
-**Can I opt out?**
+## Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* The site works on the following browsers
+    * Google Chrome.
+    * Safari.
+    * Firefox.
+* The two webpages were tested to be responsive as a desktop, tablet and mobile screensize,
+* All images and text was reviewed and confirmed to be readable,
+* The input for the pricing works,
+* The calculater function calculates correctly.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Bugs
+**Solved Bugs**
+* xxxxxxxxxx
 
-**Anything more?**
+### Validator Testing
+* HTML
+    * No errors were found when passing the site pages through the [official W3C validator](https://validator.w3.org/)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    <details><summary>Items</summary>
+    <img src="">
+    </details>
+    <details><summary>Checkout</summary>
+    <img src="">
+    </details>
 
----
+* CSS
+    * No errors were found when passing the site pages through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+    <details><summary>Image</summary>
+    <img src="">
+    </details>
 
-Happy coding!
+* Accessibility
+    * No errors or contrast were found when passing the site pages through the [official wave.webaim validator](https://wave.webaim.org/)
+
+    <details><summary>Items</summary>
+    <img src="">
+    </details>
+    <details><summary>Checkout</summary>
+    <img src="">
+    </details>
+
+* Performance
+    * The performance was tested in lighthouse on the chrome browser on all pages.
+
+    <details><summary>Items</summary>
+    <img src="">
+    </details>
+    <details><summary>Checkout</summary>
+    <img src="">
+    </details>
+
+### Testing user stories
+1. As a first time user, I want to know what subscription packages are available.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+2. As a first time user, I want to know the package price range.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages prices | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+3. As a first time user, I want to know the contact information.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the contact information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+4. As a first time user, I want to know where the office is located.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Location | Scroll down to the location section | Locating the loaction information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+5. As a first time user, I want to be able to show my intrest in one of the packages and subscribe to hear more.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+6. As a returning user, I want to know what the upcomming events are.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Events | Scroll down to the events section | Locating the weekly events | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+7. As a returning user, I want to be able to access the social media links.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Social Media | Scroll down to the footer section and select the link to the social platform | Locating the three different social links | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+8. As a returning user, I want to know the opening times.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Opening Times | Scroll down to the contact section | Locating the opening times | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+9. As a returning user , I want to be able to contact the the team.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the phone number and email address | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+10. As a returning user, I want to be able to see the updated photos in the gallery.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Gallery | Select the gallery link in the navigation bar, then navigate to the gallery page | Locating the gallery images | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+11. As the site owner, I want users to keep up to date with package changes.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+12. As the site owner, I want users to be able to see the weekly events.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Events | Scroll down to the events section | Locating the different weekly events | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+13. As the site owner, I want users to be able to subscribe to the package they want.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+14. As the site owner, I want users to be able to contact us.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the contact number and email address | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+### Unfixed Bugs
+* There is no unfixed bugs.
+
+## Deployment
+* xxxxxxxx
+
+* The process to deploy a site to GitHub pages is as follows:
+    * xxxxxxxx
+
+## Credits
+* xxxxxxxxxx
+
+### Media
+* xxxxxxxxxxxx
+
+* Any image not mentioned above is owned by the developer.
+
+## Acknowledgements
+I would like to take the opertunity to thank:
+* My Mentor Mo Shami for the great feedback productive meetings and guiding me to finishing this project.
+* I would also like to thank the Code institute team for all the support and material to assist with this project.
