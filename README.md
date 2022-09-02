@@ -1,4 +1,4 @@
-# Tica Tica's Blind Box
+# Simple & Smart Till
 (Developer: Christopher Faherty)
 
 ![This is an screenshot of the responsive design image]()
