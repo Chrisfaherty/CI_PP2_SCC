@@ -3,7 +3,7 @@
 
 ![This is an screenshot of the responsive design image]()
 
-[Live Webpage](https://chrisfaherty.github.io/CI_PP2_SCC/)
+[Live Webpage](https://chrisfaherty.github.io/CI_PP2_SST/)
 
 ## Table of Content
 
@@ -93,12 +93,17 @@
 
 ### Wireframes
 
-<details><summary>Items</summary>
+<details><summary>Calculater</summary>
 <img src="">
 <img src="">
 <img src="">
 </details>
-<details><summary>Checkout</summary>
+<details><summary>Game</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Feedback</summary>
 <img src="">
 <img src="">
 <img src="">
