@@ -1,17 +1,15 @@
 //Selectors
 const shoppingListInput = document.querySelector('.shopping-list-input');
 const shoppingListButton = document.querySelector('.shopping-list-button');
-const sortShoppingListItems = document.querySelector('.sort-shopping-list-items');
+const sortShoppingListItems = document.querySelector('.shopping-items-list-item');
 const shoppingItemsList = document.querySelector('.shopping-items-list');
 
 //Event Listeners
 shoppingListButton.addEventListener('click', addItemToList);
-
 /*
 sortShoppingListItems.addEventListener('click', sortItemInList);
 shoppingItemsListItem.addEventListener('click', removeItemFromList);
 */
-
 //Functions
 
 function addItemToList(addItem){
@@ -21,7 +19,7 @@ function addItemToList(addItem){
 
     // Create a Div where the Items added to the list will be displayed
     const addItemToListDiv = document.createElement("div");
-    addItemToListDiv.classList.add('item-to-List');
+    addItemToListDiv.classList.add('item-to-list');
 
      // Create an Li for each item
     const newItemToList = document.createElement('li');
@@ -43,5 +41,5 @@ function addItemToList(addItem){
     addItemToListDiv.appendChild(removeItemButton);
 
     // Append Shopping List
-    shoppingItemsList.appendChild(addItemToListDiv);
+    sortShoppingListItems.appendChild(addItemToListDiv);
 }

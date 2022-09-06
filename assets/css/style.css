@@ -17,6 +17,7 @@ body {
 }
 
 /*Hearder Styling*/
+
 header {
 height: 5rem;
 width: 100%;
@@ -50,6 +51,7 @@ nav {
     border-bottom: 1px solid #CBEA3E;}
 
 /* Footer Styling */
+
 footer{
     height: 2.5rem;
     position: absolute;
@@ -86,7 +88,7 @@ form input, form button {
 
 form button {
     color: #04333C;
-    background-color:azure;
+    background:azure;
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -103,7 +105,33 @@ form button:hover {
     align-items: center;
 }
 .shopping-items-list-item {
-    min-width: 50%;
+    width: 50%;
+    list-style: none;
+    }
+
+.item-to-list {
+    margin: 0.5rem;
+    background: azure;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.item-to-list li {
+    flex: 1;
+}
+
+.item-purchased-btn, .remove-item-btn {
+    background: #CBEA3E;
+    color:azure ;
+    border: 5%;
+    border-color: #04333C;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.1rem;
+    cursor: pointer;
+
+}
 
