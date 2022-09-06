@@ -125,13 +125,18 @@ form button:hover {
 
 .item-purchased-btn, .remove-item-btn {
     background: #CBEA3E;
-    color:azure ;
+    color: #04333C;
     border: 5%;
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
     margin: 0.1rem;
     cursor: pointer;
-
+}
+.remove-item-btn {
+    background: rgb(249, 70, 4);
+}
+.fa-minus, .fa-check {
+    pointer-events: none;
 }
 
