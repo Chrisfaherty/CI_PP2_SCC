@@ -51,6 +51,7 @@ function removeItemFromList(additem){
     const item = additem.target;
     // deleting the list item
     if (item.classList[0] === "remove-item-btn"){
-        item.remove();
+        const listItem = item.parentElement;
+        listItem.remove ();
     }
 }
