@@ -4,3 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Setting up the background color and layout */
+
+body {
+    background-image: linear-gradient(180deg,#005CB8 0%, #B4BDAE);
+    color: white;
+    font-family: "fatface", 'lato', sans-serif;
+    min-height: 100vh;
+}
