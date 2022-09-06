@@ -95,4 +95,16 @@ form button:hover {
     color: #CBEA3E;
 }
 
+ /* Shopping items list styling */
+
+.shopping-items-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-items-list-item {
+    min-width: 50%;
+}
+
+
 
