@@ -13,6 +13,7 @@ body {
     color: white;
     font-family: Lato, sans-serif;
     min-height: 100vh;
+    padding-bottom: 2.5rem;
 }
 
 /*Hearder Styling*/
@@ -43,7 +44,28 @@ nav {
 .active {
     border-bottom: 1px solid #CBEA3E;}
 
-/* form Styling */
+
+
+/* Footer Styling */
+footer{
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+.social-links {
+    text-align: center}
+.social-links > li {
+    display: inline;}
+.social-links i{
+    font-size: 3vh;
+    color: white;
+    padding-left: 3rem;
+}
+ 
+/* Form Styling */
 form {
     font-size: 1vh;
     min-height: 20vh;
