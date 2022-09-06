@@ -13,3 +13,8 @@ body {
     font-family: "fatface", 'lato', sans-serif;
     min-height: 100vh;
 }
+
+/*Hearder Styling*/
+header {
+font-size: 2.5vh;
+}
