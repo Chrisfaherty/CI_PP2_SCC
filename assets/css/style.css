@@ -9,8 +9,8 @@
 /* Setting up the background color and layout */
 
 body {
-    background-image: linear-gradient(180deg,#005CB8 0%, #B4BDAE);
-    color: white;
+    background-image: linear-gradient(180deg,#005CB8 0%, #B4BDAE 50%);
+    color: #04333C;
     font-family: Lato, sans-serif;
     min-height: 100vh;
     padding-bottom: 2.5rem;
@@ -18,13 +18,16 @@ body {
 
 /*Hearder Styling*/
 header {
-font-size: 2vh;
+height: 5rem;
+width: 100%;
+padding-left: 1rem;
+font-size: 1.5rem;
 font-family: 'Abril Fatface', sans-serif;
-margin: 1vh 1vh 1vh;
+color: azure;
 }
 
 nav {
-    font-size: 2.5vh;
+    font-size: 1.5rem;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -40,11 +43,11 @@ nav {
     text-decoration: none;
     color: inherit;}
 #menu a:hover {
-    border-bottom: 1px solid #CBEA3E;}
+    border-bottom: 1px solid #CBEA3E;
+    color: #CBEA3E;
+}
 .active {
     border-bottom: 1px solid #CBEA3E;}
-
-
 
 /* Footer Styling */
 footer{
@@ -52,18 +55,18 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    
-
 }
 .social-links {
     text-align: center}
 .social-links > li {
     display: inline;}
 .social-links i{
-    font-size: 3vh;
-    color: white;
+    font-size: 2rem;
+    color: #04333C;
     padding-left: 3rem;
 }
+.social-links i:hover {
+    color: #CBEA3E;}
  
 /* Form Styling */
 form {
@@ -73,3 +76,23 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+form input, form button {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    background: azure;
+}
+
+form button {
+    color: #04333C;
+    background-color:azure;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+form button:hover {
+    color: #CBEA3E;
+}
+
+
