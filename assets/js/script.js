@@ -6,9 +6,6 @@ const shoppingItemsList = document.querySelector('.shopping-items-list');
 
 //Event Listeners
 shoppingListButton.addEventListener('click', addItemToList);
-/*
-sortShoppingListItems.addEventListener('click', sortItemInList);
-*/
 shoppingItemsListItem.addEventListener('click', removeItemFromList);
 
 //Functions
@@ -60,5 +57,5 @@ function removeItemFromList(additem){
         const listItem = item.parentElement;
         listItem.classList.toggle("item-purchased");
     }
-
 }
+// End of list.html JS.
