@@ -54,4 +54,11 @@ function removeItemFromList(additem){
         const listItem = item.parentElement;
         listItem.remove ();
     }
+
+    // Marking Item if it is complete
+    if (item.classList[0] === "item-purchased-btn"){
+        const listItem = item.parentElement;
+        listItem.classList.toggle("item-purchased");
+    }
+
 }
