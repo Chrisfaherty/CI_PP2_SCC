@@ -140,3 +140,7 @@ form button:hover {
     pointer-events: none;
 }
 
+.item-purchased {
+    opacity: 0.5;
+    background-color: #CBEA3E;
+}
