@@ -189,3 +189,6 @@ form button:hover {
     justify-content: space-around;
     align-items: center;
  }
+ .items img {
+    margin:10vh;
+ }
