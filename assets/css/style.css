@@ -13,6 +13,7 @@ body {
     color: #04333C;
     font-family: Lato, sans-serif;
     height: auto;
+    height: 100vh;
 }
 
 /*Hearder Styling*/
@@ -204,6 +205,13 @@ form button:hover {
  }
 
  /*Style buttons on game*/
- .control {
-
+ .choices button {
+    background: #CBEA3E;
+    color: #04333C;
+    border: 5%;
+    border-color: #04333C;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.1rem;
+    cursor: pointer;
  }
