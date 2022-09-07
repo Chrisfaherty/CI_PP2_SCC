@@ -183,3 +183,9 @@ form button:hover {
     color: azure;
     text-align: center;
  }
+
+ .items, .choices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
