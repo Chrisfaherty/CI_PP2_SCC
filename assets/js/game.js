@@ -11,6 +11,7 @@ const game = function (){
 
         startBtn.addEventListener('click', function (){
             infoScreen.classList.add('fadeOut');
+            playZone.classList.add('fadeIn');
             
         });
     };

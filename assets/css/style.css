@@ -169,6 +169,7 @@ form button:hover {
     align-items: center;
     justify-content: space-around;
     font-size: 1.5rem;
+    transition: opacity 0.5s ease;
  }
 
  .play-zone {
