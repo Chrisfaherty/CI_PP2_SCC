@@ -20,6 +20,8 @@ const game = function (){
     // This function will be used to start the game
     const playGame = function (){
         const choices = document.querySelector('.choices button');
+        const humanImg = document.querySelector('.human-img');
+        const computerImg = document.querySelector('.computer-img');
     }
 
     startGame();
