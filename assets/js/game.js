@@ -1,5 +1,7 @@
 // Start of game.html JS.
-
+const buttons = document.getElementsByClassName('control');
+const mScore = document.getElementsByClassName('match');
+const dScore = document.getElementsByClassName('different');
 const game = function (){
     let mScore = 0;
     let dScore = 0;
@@ -26,13 +28,7 @@ const game = function (){
         //create a random generator to select between the images at random
         const computerChoices = ['bottle', 'cake', 'choclate', 'coffee', 'cookie', 'ice-cream'];
         
-        for (let choice of computerChoices){
-            choice.addEventListener('click', function(){
-                const computerNumber = Math.floor(Math.random() * 6);
-                const computerChoice = computerChoices[computerNumber];
-                console.log(computerChoice); 
-            })
-        }
+    
 
        /* // create a loop to go through the arrey
         choices.forEach((choice) => {
