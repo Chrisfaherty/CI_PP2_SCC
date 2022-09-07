@@ -161,8 +161,6 @@ form button:hover {
     text-align: center;
  }
 
-
-
  .info{
     color: azure;
     height: 50vh;
@@ -170,4 +168,13 @@ form button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.5rem;
+ }
+
+ .play-zone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
  }
