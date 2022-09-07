@@ -25,7 +25,8 @@ const game = function (){
 
         //create a random generator to select between the images at random
         const computerChoices = ['bottle','cake', 'choclate', 'coffee', 'cookie', 'ice-cream'];
-        const computerChoice = Math.random() * 6;
+        const computerChoice = Math.floot(Math.random() * 6);
+        console.log(computerChoice);
     }
 
     startGame();
