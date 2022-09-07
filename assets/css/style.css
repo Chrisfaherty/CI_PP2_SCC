@@ -215,3 +215,8 @@ form button:hover {
     margin: 0.1rem;
     cursor: pointer;
  }
+
+ .choices button:hover {
+    background: #04333C;
+    color: #CBEA3E;
+ }
