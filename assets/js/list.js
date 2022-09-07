@@ -59,23 +59,3 @@ function removeItemFromList(additem){
     }
 }
 // End of list.html JS.
-
-// Start of game.html JS.
-
-const game = function (){
-    let mScore = 0;
-    let dScore = 0;
-
-    const startGame = function (){
-        const startBtn = document.querySelector('.info button');
-        const infoScreen = document.querySelector('.info');
-        const match = document.querySelector('.match');
-
-        startBtn.addEventListener('click', function (){
-            infoScreen.classList.add('disapear');
-        });
-    };
-    startGame();
-};
-
-game();
