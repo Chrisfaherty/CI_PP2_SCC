@@ -22,9 +22,14 @@ const game = function (){
         const choices = document.querySelector('.choices button');
         const humanImg = document.querySelector('.human-img');
         const computerImg = document.querySelector('.computer-img');
+
+        //create a random generator to select between the images at random
+        const computerChoices = ['bottle','cake', 'choclate', 'coffee', 'cookie', 'ice-cream'];
+        const computerChoice = Math.random() * 6;
     }
 
     startGame();
+    playGame();
 };
 
 game();
