@@ -2,9 +2,11 @@
 const buttons = document.getElementsByClassName('control');
 const mScore = document.getElementsByClassName('match');
 const dScore = document.getElementsByClassName('different');
-const game = function (){
-    let mScore = 0;
-    let dScore = 0;
+const humanImg = document.getElementsByClassName('human-img');
+const computerImg = document.getElementsByClassName('computer-img');
+//create a random generator to select between the images at random
+const computerChoices = ['bottle', 'cake', 'choclate', 'coffee', 'cookie', 'ice-cream'];
+
 
     // This function is used to fade out the info screen and fade in the game
     const startGame = function (){
@@ -14,20 +16,22 @@ const game = function (){
 
         startBtn.addEventListener('click', function (){
             infoScreen.classList.add('fadeOut');
-            playZone.classList.add('fadeIn');
-            
+            playZone.classList.add('fadeIn'); 
+        });
+    };
+
+// Adding event listeners to the buttons
+    for (let button of buttons) {
+        button.addEventListener("click", function(){
+            let humanChoice = this.getAttribute("data-choice");
+            startGame(humanChoice);
         });
     };
 
     // This function will be used to start the game
     const playGame = function (){
-        const choices = document.querySelector('.choices button');
-        const humanImg = document.querySelector('.human-img');
-        const computerImg = document.querySelector('.computer-img');
 
-        //create a random generator to select between the images at random
-        const computerChoices = ['bottle', 'cake', 'choclate', 'coffee', 'cookie', 'ice-cream'];
-        
+
     
 
        /* // create a loop to go through the arrey
@@ -43,6 +47,3 @@ const game = function (){
 
     startGame();
     playGame();
-};
-
-game();
