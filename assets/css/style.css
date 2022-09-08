@@ -205,7 +205,7 @@ form button:hover {
  }
 
  /*Style buttons on game*/
- .choices button {
+ .choices button, .info button {
     background: #CBEA3E;
     color: #04333C;
     border: 5%;

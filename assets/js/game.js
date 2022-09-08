@@ -2,6 +2,7 @@
     const buttons = document.getElementsByClassName('control');
     const humanImg = document.getElementById('human-img');
     const computerImg = document.getElementById('computer-img');
+    const outcome = document.querySelector('.outcome');
     const choices = ['coffee', 'bottle', 'cake', 'chocolate', 'cookie', 'ice-cream'];
     let mScore = 0;
     let dScore = 0;
@@ -55,6 +56,20 @@
             const computerScore = document.querySelector('.different p');
             humanScore.textContent = mScore;
             computerScore.textContent = dScore;
+
+            let isGameOver = false;
+
+            if (mScore === 5) {
+                isGameOver = true;
+                outcome.textContent = ` You won!`;
+                return;
+              } else if (dScore === 10) {
+                isGameOver = true;
+                outcome.textContent = `You lose!`;
+                return;
+              } else {
+                isGameOver = false;
+              }
         };
     
         // This section is used to check if there is a match
@@ -62,7 +77,6 @@
         const compareChoices =(humanChoice, computerChoice) => {
         
             //Checking for a match
-            const outcome = document.querySelector('.outcome');
 
             if(humanChoice === computerChoice){
                 outcome.textContent = "It is a match";
@@ -77,4 +91,4 @@
             };
             };
     
-    
+        
