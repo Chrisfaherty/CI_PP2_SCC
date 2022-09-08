@@ -220,3 +220,21 @@ form button:hover {
     background: #04333C;
     color: #CBEA3E;
  }
+
+ .resetButton input {
+    background: #ea3e3e;
+    color: #04333C;
+    border: 5%;
+    border-color: #04333C;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.1rem;
+    cursor: pointer;
+ }
+
+ .resetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+ }
