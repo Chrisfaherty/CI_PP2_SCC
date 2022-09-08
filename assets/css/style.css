@@ -243,7 +243,6 @@ form button:hover {
  }
 
  /* Form Styling*/
-
  .subscribe-form{
     background-color: #CBEA3E;
     display: flex;
@@ -251,23 +250,25 @@ form button:hover {
     align-items: center;
     flex-direction: column;
     min-height: 70%;
-    width: 50%;
     font-size: 2vh;
-    margin: 2rem;}
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;}
 
 
 .subscribe-form input {
-    width: 30%;
+    width: 50%;
     height: 2vh;
-    margin: 0.25rem;
+    margin: 0;
 }
 
 .subscribe-form label {
-    font-size: 1.5rem;
+    font-size: 30px;
+    margin: 0;
 }
 
 .subscribe-form h2 {
-    font-size: 1.5rem;
+    font-size: 40px;
 }
 #submit-button {
     background: #04333C;
@@ -280,7 +281,10 @@ form button:hover {
     cursor: pointer;
     height: 4rem;
     width: 10rem;
+    font-size: 30px;
 }
+
+
 
  /* To cover screen widths up to a maximum of 1200px*/
  @media screen and (max-width: 1200px){
@@ -302,11 +306,11 @@ form button:hover {
 }
 
 .subscribe-form label {
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .subscribe-form h2 {
-    font-size: 1.5rem;
+    font-size: 35px;
 }
 #submit-button {
     background: #04333C;
@@ -315,7 +319,7 @@ form button:hover {
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
-    margin: 0.1rem;
+    margin-bottom: 1rem;
     cursor: pointer;
     height: 4rem;
     width: 10rem;
