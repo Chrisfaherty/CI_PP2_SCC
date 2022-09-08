@@ -3,7 +3,10 @@
     const humanImg = document.getElementById('human-img');
     const computerImg = document.getElementById('computer-img');
     const outcome = document.querySelector('.outcome');
+    const reset = document.querySelector('.resetButton input');
     const choices = ['coffee', 'bottle', 'cake', 'chocolate', 'cookie', 'ice-cream'];
+    const matches = document.getElementById('matches');
+    const notMatched = document.getElementById('notMatched')
     let mScore = 0;
     let dScore = 0;
     
@@ -90,5 +93,16 @@
                 return;
             };
             };
-    
+        
+        const resetGame = function () {
+            reset.addEventListener("click", function(){
+                    isGameOver = false;
+                    mScore = 0;
+                    dScore = 0;
+                    matches.textContent = "0";
+                    notMatched.textContent = "0";
+                    outcome.textContent = "Choose an Item";
+                });
+                };
+                resetGame();
         
