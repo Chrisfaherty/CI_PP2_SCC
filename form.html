@@ -15,14 +15,16 @@
 </head>
 <!--This header includes the site logo and page links-->
 <header class="header">
-        <h1 class="heading">Shopping List</h1>
+
+        <h1 class="heading">Feedback</h1>
+    
         <nav class="navbar">
             <ul id="menu">
                 <li>
-                    <a href="index.html" >Till</a>
+                    <a href="form.html" class="active">Feedback</a>
                 </li>
                 <li>
-                    <a href="list.html" class="active">List</a>
+                    <a href="index.html">List</a>
                 </li>
                 <li>
                     <a href="game.html">Game</a>
@@ -31,18 +33,42 @@
         </nav>
 </header>
 <body>
-<form>
-    <input type="text" class="shopping-list-input">
-    <button type="submit" class="shopping-list-button">
-        <i class="fa-solid fa-square-plus"></i>
-    </button>
-</form>
-<div class="shopping-items-list">
-    <ul class ="shopping-items-list-item"></ul>
-</div>
 
-<!--This is the link to the JavaScript file-->
-    <script src="assets/js/list.js"></script>
+    <div class="banner">
+
+    </div>
+
+    <div class="till-area">
+        <div class="inputs-area">
+            <button class="btn btn--big btn--coffee">
+                <label>Coffee</label>
+            </button>
+            <button class="btn btn--big btn--Tea">
+                <label>Tea</label>
+            </button>
+            <button class="btn btn--big btn--soft-drink">
+                <label>Soft Drink</label>
+            </button>
+            <button class="btn btn--big btn--water">
+                <lable>Water</lable>
+            </button>
+            <button class="btn btn--big btn--cake">
+                <label>Cake</label>
+            </button>
+            <button class="btn btn--big btn--snack">
+                <label>Snack</label>
+            </button>
+        </div>
+        <div class="clear-inputs-area">
+            <button class="btn btn--big btn--clear">
+                <label>Clear</label>
+            </button>
+        </div>
+        <div class="display-area">
+            
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 <!--this is the footer Section with the Social links html-->
 <footer>
