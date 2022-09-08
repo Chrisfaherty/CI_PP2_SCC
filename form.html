@@ -39,41 +39,34 @@
 </header>
 <body>
 
-    <div class="banner">
-
-    </div>
-
-    <div class="till-area">
-        <div class="inputs-area">
-            <button class="btn btn--big btn--coffee">
-                <label>Coffee</label>
-            </button>
-            <button class="btn btn--big btn--Tea">
-                <label>Tea</label>
-            </button>
-            <button class="btn btn--big btn--soft-drink">
-                <label>Soft Drink</label>
-            </button>
-            <button class="btn btn--big btn--water">
-                <lable>Water</lable>
-            </button>
-            <button class="btn btn--big btn--cake">
-                <label>Cake</label>
-            </button>
-            <button class="btn btn--big btn--snack">
-                <label>Snack</label>
-            </button>
-        </div>
-        <div class="clear-inputs-area">
-            <button class="btn btn--big btn--clear">
-                <label>Clear</label>
-            </button>
-        </div>
-        <div class="display-area">
-            
-        </div>
-    </div>
+    <section class="subscribe-section">
+        <form method = "POST" action = "_blank" class="subscribe-form">
+            <h2>Subscribe today!</h2>   
+                <label for="fname">First Name</label>
+                    <br>
+                <input type = "text" id="fname" name="first_name" required>
+                    <br>
+                <label for="lname">Last Name</label>
+                    <br>
+                <input type="text" id="lname" name="last_name" required>
+                    <br>
+                <label for="email">Email Address</label>
+                    <br>
+                <input type = "email" id="email" name="email_address" required>
+                    <br>
+                <label for="list-radio">List</label>
+                <input type = "radio" id="list-radio" name="list-feedback" required>
+                    <br>
+                <label for="game-radio">Game</label>
+                <input type = "radio" id="game-radio" name="game-feedback">
+                    <br>
+                <input type="submit" value="Send off" id="submit-button">
+        </form>
+   </section>
     <script src="assets/js/script.js"></script>
+<!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">(function(){emailjs.init("ar8nvoepKsy2RQrM8");})();</script>
 </body>
 <!--this is the footer Section with the Social links html-->
 <footer>
