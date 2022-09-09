@@ -40,33 +40,27 @@
 <body>
 
     <section class="subscribe-section">
-        <form method = "POST" action = "_blank" class="subscribe-form">
+        <form class="subscribe-form">
             <h2>Subscribe today!</h2>   
-                <label for="fname">First Name</label>
+                <label for="from_name">Name</label>
                     <br>
-                <input type = "text" id="fname" name="first_name" required>
-                    <br>
-                <label for="lname">Last Name</label>
-                    <br>
-                <input type="text" id="lname" name="last_name" required>
+                <input type = "text" id="from_name" name="from_name" required>
                     <br>
                 <label for="email">Email Address</label>
                     <br>
                 <input type = "email" id="email" name="email_address" required>
                     <br>
-                <label for="list-radio">List</label>
-                <input type = "radio" id="list-radio" name="list-feedback" required>
+                <label for="message">Last Name</label>
                     <br>
-                <label for="game-radio">Game</label>
-                <input type = "radio" id="game-radio" name="game-feedback">
+                <input type="text" id="message" name="message" required>
                     <br>
-                <input type="submit" value="Send off" id="submit-button">
+                <input type="submit" value="Send off" id="submit-button" onclick="sendMail()">
         </form>
    </section>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/form.js"></script>
 <!--EmailJS-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">(function(){emailjs.init("ar8nvoepKsy2RQrM8");})();</script>
+    <script type="text/javascript">(function(){emailjs.init("user_ar8nvoepKsy2RQrM8");})();</script>
     <!-- -->
 </body>
 <!--this is the footer Section with the Social links html-->
