@@ -1,3 +1,5 @@
+
+/* This function is to connect the form with EmailJS */
 function sendMail(params){
     var tempParams = {
     name: document.getElementById('to_name').value,
