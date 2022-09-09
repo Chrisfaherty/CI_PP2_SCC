@@ -271,6 +271,11 @@ form button:hover {
 .subscribe-form h2 {
     font-size: 40px;
 }
+#message {
+    font-size: 30px;
+    height: 150px;
+    width: 75%;
+}
 #submit-button {
     background: #04333C;
     color: #CBEA3E;
@@ -291,6 +296,8 @@ form button:hover {
  @media screen and (max-width: 1200px){
  .subscribe-form{
     background-color: #CBEA3E;
+    border-radius: 5px;
+    border-color: #04333C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,6 +316,10 @@ form button:hover {
 
 .subscribe-form label {
     font-size: 20px;
+}
+#message {
+    font-size: 20px;
+    height: 100px;
 }
 
 .subscribe-form h2 {
