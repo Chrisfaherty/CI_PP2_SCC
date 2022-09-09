@@ -73,7 +73,7 @@ footer{
 .social-links i:hover {
     color: #CBEA3E;}
  
-/* Form Styling */
+/* shopping list Form Styling */
 form {
     font-size: 1vh;
     min-height: 20vh;
@@ -147,6 +147,29 @@ form button:hover {
     opacity: 0.5;
     background-color: #CBEA3E;
 }
+
+/* To cover screen widths up to a maximum of 500px*/
+@media screen and (max-width: 500px){
+    header {
+        font-size: 1rem;
+        }
+
+    nav {
+            font-size: 1.25rem;
+        }
+    form {
+            font-size: 1vh;
+            max-width: 90%;
+        }
+        
+    form input, form button {
+            font-size: 2vh;
+            max-width:90%;
+}
+    form input {
+        margin-left: 10%;
+    }
+
  /* End of list.html css */
 
  /* Start of Game CSS Styling */
@@ -318,7 +341,7 @@ form button:hover {
     font-size: 20px;
 }
 #message {
-    font-size: 20px;
+    font-size: 15px;
     height: 100px;
 }
 
