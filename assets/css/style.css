@@ -260,6 +260,7 @@ form button:hover {
     width: 50%;
     height: 2vh;
     margin: 0;
+    font-size: 20px;
 }
 
 .subscribe-form label {
@@ -300,9 +301,10 @@ form button:hover {
 
 
 .subscribe-form input {
-    width: 50%;
+    width: 60%;
     height: 2vh;
     margin: 0.25rem;
+    font-size: 15px;
 }
 
 .subscribe-form label {
