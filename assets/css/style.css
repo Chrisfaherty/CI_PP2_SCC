@@ -360,6 +360,10 @@ form button:hover {
         padding-bottom: 7vh;
      }
 
+     .info {
+        text-align: center;
+     }
+
 }
 
  /* Form Styling*/
