@@ -168,7 +168,7 @@ form button:hover {
 }
     form input {
         margin-left: 10%;
-    }
+    }}
 
  /* End of list.html css */
 
@@ -264,6 +264,103 @@ form button:hover {
     align-items: center;
     margin-top: 1rem;
  }
+
+ /* To cover screen widths up to a maximum of 800px*/
+@media screen and (max-width: 800px){
+    .score {
+        font-size: 15px;
+        margin-top: 3vh;
+    }
+
+    .outcome {
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 10vh;
+    }
+
+    .items img {
+        font-size: 0;
+        height: 150px;
+        width: 175px;
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    .items{
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        padding: 0;
+    }
+
+    .choices{
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .choices button, .info button {
+        text-align: center;
+        width: 100px;
+     }
+
+}
+
+/* To cover screen widths up to a maximum of 500px*/
+@media screen and (max-width: 500px){
+    .score {
+        font-size: 20px;
+        margin-top: 10vh;
+        height: 10vh;
+    }
+
+    .play-zone {
+        margin: 0;
+    }
+
+    .outcome {
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 35vh;
+        margin-bottom: 10vh;
+        padding: 0;
+    }
+
+    .items img {
+        font-size: 0;
+        height: 150px;
+        width: 175px;
+        display: inline;
+        margin: 0;
+    }
+    .items{
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .choices{
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .choices button, .info button{
+        text-align: center;
+        width: 100px;
+     }
+     .resetButton {
+        padding-bottom: 7vh;
+     }
+
+}
 
  /* Form Styling*/
  .subscribe-form{
