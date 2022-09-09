@@ -1,10 +1,8 @@
 function sendMail(params){
     var tempParams = {
-    fname: document.getElementById('fname').value,
-    lname: document.getElementById('lname').value,
+    name: document.getElementById('to_name').value,
     email: document.getElementById('email').value,
-    list_radio: document.getElementById('list_radio').value,
-    game_radio: document.getElementById('game_radio').value,
+    message: document.getElementById('message').value,
 };
 emailjs.send('service_3tbvdmq','template_psbp8aj',tempParams)
 .then(function(res){
