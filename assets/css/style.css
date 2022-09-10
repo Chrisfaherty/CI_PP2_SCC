@@ -3,76 +3,62 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 /* Setting up the background color and layout */
-
 body {
     background-image: url('../images/background.jpg');
     color: #04333C;
     font-family: Lato, sans-serif;
     height: auto;
-    height: 100vh;
-}
+    height: 100vh;}
 
 /*Hearder Styling*/
-
 header {
 height: 5rem;
 width: 100%;
 padding-left: 1rem;
 font-size: 1.5rem;
 font-family: 'Abril Fatface', sans-serif;
-color: #04333C;
-}
+color: #04333C;}
 
 nav {
     font-size: 1.5rem;
     display: flex;
     justify-content: right;
     align-items: center;
-    text-align: right;
-}
+    text-align: right;}
 #menu li {
     display: inline-block;
     list-style-type: none;
     margin: 1vh 1vh 0 0;
-    padding-right: 1vh;
-}
+    padding-right: 1vh}
 #menu a{
     text-decoration: none;
     color: inherit;}
 #menu a:hover {
     border-bottom: 1px solid #CBEA3E;
-    color: #CBEA3E;
-}
+    color: #CBEA3E}
 .active {
     border-bottom: 1px solid #CBEA3E;}
 
 /* Footer Styling */
-
 footer{
     position: fixed;
     bottom: 0;
     max-height: 10vh;
     width: 100%;
-    background-color: #04333C ;
-}
+    background-color: #04333C ;}
 .social-links {
     display: flex;
-    justify-content: space-between;
-
-}
+    justify-content: space-between;}
 .social-links > li {
     width: 33%;
-    text-align: center;
-}
+    text-align: center;}
 .social-links i{
     font-size: 3rem;
     color: #CBEA3E;
-    justify-content: space-around;
-}
+    justify-content: space-around;}
 .social-links i:hover {
     color: #CBEA3E;}
  
@@ -82,42 +68,31 @@ form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 form input, form button {
     padding: 1rem;
     font-size: 2rem;
     border-style: solid;
     border-width: 2px;
     border-color: #04333C;
-    background: azure;
-}
-
+    background: azure;}
 form button {
     color: #04333C;
     background:azure;
     cursor: pointer;
-    transition: all 0.5s ease;
-}
-
+    transition: all 0.5s ease;}
 form button:hover {
-    color: #CBEA3E;
-}
+    color: #CBEA3E;}
 
  /* Shopping items list styling */
-
 .shopping-items-list {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;}
 .shopping-items-list-item {
     width: 500px;
     list-style: none;
-    padding-bottom: 5vh;
-    }
-
+    padding-bottom: 5vh;}
 .item-to-list {
     margin: 0.5rem;
     background: azure;
@@ -125,13 +100,9 @@ form button:hover {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
+    align-items: center;}
 .item-to-list li {
-    flex: 1;
-}
-
+    flex: 1;}
 .item-purchased-btn, .remove-item-btn {
     background: #CBEA3E;
     color: #04333C;
@@ -140,63 +111,45 @@ form button:hover {
     border-radius: 5px;
     padding: 1rem;
     margin: 0.1rem;
-    cursor: pointer;
-}
+    cursor: pointer;}
 .remove-item-btn {
-    background: rgb(249, 70, 4);
-}
+    background: rgb(249, 70, 4);}
 .fa-minus, .fa-check {
-    pointer-events: none;
-}
-
+    pointer-events: none;}
 .item-purchased {
     opacity: 0.5;
-    background-color: #CBEA3E;
-}
+    background-color: #CBEA3E;}
 
 /* To cover screen widths up to a maximum of 500px*/
 @media screen and (max-width: 500px){
     header {
-        font-size: 1rem;
-        }
-
+        font-size: 1rem;}
     nav {
-            font-size: 1.25rem;
-        }
+        font-size: 1.25rem;}
     form {
             font-size: 1vh;
-            max-width: 90%;
-        }
-        
+            max-width: 90%;}
     form input, form button {
             font-size: 2vh;
-            max-width:90%;
-}
+            max-width:90%;}
     form input {
-        margin-left: 10%;
-    }
+        margin-left: 10%;}
     .social-links i{
-        font-size: 2rem;
-    }
+        font-size: 2rem;}
 }
 
  /* End of list.html css */
 
  /* Start of Game CSS Styling */
-
  section {
-    height: 92vh;
- }
-
+    height: 92vh;}
  .score {
     height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.5rem;
-    text-align: center;
- }
-
+    text-align: center;}
  .info{
     color: #04333C;
     height: 50vh;
@@ -208,41 +161,29 @@ form button:hover {
     transition: opacity 0.5s ease;
     border: 5%;
     border-color:#CBEA3E;
-    border-radius: 5px;
- }
-
+    border-radius: 5px;}
  .play-zone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: opacity 0.5s ease 0.5s;
- }
-
+    transition: opacity 0.5s ease 0.5s;}
  .outcome {
     color: #04333C;
     text-align: center;
-    font-size: 30px;
- }
-
+    font-size: 30px;}
  .items, .choices {
     display: flex;
     justify-content: space-around;
-    align-items: center;
- }
+    align-items: center;}
  .items img {
-    margin:5vh;
- }
-
+    margin:5vh;}
  div.fadeOut {
     opacity: 0;
-    pointer-events: none;
- }
-
+    pointer-events: none;}
  div.fadeIn {
     opacity: 1;
-    pointer-events: all;
- }
+    pointer-events: all;}
 
  /*Style buttons on game*/
  .choices button, .info button {
@@ -253,14 +194,10 @@ form button:hover {
     border-radius: 5px;
     padding: 1rem;
     margin: 0.1rem;
-    cursor: pointer;
- }
-
+    cursor: pointer;}
  .choices button:hover {
     background: #04333C;
-    color: #CBEA3E;
- }
-
+    color: #CBEA3E;}
  .resetButton input {
     background: #ea3e3e;
     color: #04333C;
@@ -269,98 +206,72 @@ form button:hover {
     border-radius: 5px;
     padding: 1rem;
     margin: 0.1rem;
-    cursor: pointer;
- }
-
+    cursor: pointer;}
  .resetButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
- }
+    margin-top: 1rem;}
 
  /* To cover screen widths up to a maximum of 900px*/
 @media screen and (max-width: 900px){
     .score {
         font-size: 20px;
         margin-top: 3vh;}
-
     .outcome {
         font-size: 25px;
         margin-top: 10vh;}
-
     .items img {
         height: 200px;
         width: 200px;
         display: inline;
         margin: 0;
-        padding: 0;
-    }
+        padding: 0;}
     .items{
         flex-wrap: wrap;
         grid-auto-flow: row;
         justify-content: center;
         align-items: center;
         margin-top: 10vh;
-        padding: 0;
-    }
-
+        padding: 0;}
     .choices{
         display: grid;
-        grid-template-columns: auto auto auto;
-
-    }
-
+        grid-template-columns: auto auto auto;}
     .choices button {
         text-align: center;
-        width: 100px;
-     }
-
-     .info button{
+        width: 100px;}
+    .info button{
         border-color:#CBEA3E;
         border-radius: 5px;
         text-align: center;
         width: 200px;
         height: 75px;
-        font-size: 30px;
-     }
+        font-size: 30px;}
      .outcome{
         font-size: 30px;
         padding-top:12vh;
-        color: #04333C;
-     }
-
+        color: #04333C;}
      .resetButton{
-        padding-bottom: 7vh;
-     }
-
-}
+        padding-bottom: 7vh;}}
 
 /* To cover screen widths up to a maximum of 500px*/
 @media screen and (max-width: 500px){
     .score {
         font-size: 20px;
         margin-top: 10vh;
-        height: 10vh;
-    }
-
+        height: 10vh;}
     .play-zone {
-        margin: 0;
-    }
-
+        margin: 0;}
     .outcome {
         margin-top: 5vh;
         margin-bottom: 10vh;
-        padding-top: 0vh;
-    }
-
+        padding-top: 0vh;}
     .items img {
         font-size: 0;
         height: 150px;
         width: 175px;
         display: inline;
-        margin: 0;
-    }
+        margin: 0;}
     .items{
         flex-direction: column;
         flex-wrap: wrap;
@@ -368,40 +279,26 @@ form button:hover {
         justify-content: center;
         align-items: center;
         margin-top: 0;
-        padding: 0;
-    }
-
+        padding: 0;}
     .choices{
         display: grid;
-        grid-template-columns: auto auto auto;
-
-    }
+        grid-template-columns: auto auto auto;}
 
     .choices button, .info button{
         text-align: center;
-        width: 100px;
-     }
-
-     .info {
-        font-size: 20px;
-     }
-
-     .info button{
+        width: 100px;}
+    .info {
+        font-size: 20px;}
+    .info button{
         border-color:#CBEA3E;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        width: 150px;
-     }
+        width: 150px;}
      .resetButton {
-        padding-bottom: 7vh;
-     }
-
+        padding-bottom: 7vh;}
      .info {
-        text-align: center;
-     }
-
-}
+        text-align: center;}}
 
  /* Form Styling*/
  .subscribe-form{
@@ -415,28 +312,20 @@ form button:hover {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;}
-
-
 .subscribe-form input {
     width: 50%;
     height: 2vh;
     margin: 0;
-    font-size: 20px;
-}
-
+    font-size: 20px;}
 .subscribe-form label {
     font-size: 30px;
-    margin: 0;
-}
-
+    margin: 0;}
 .subscribe-form h2 {
-    font-size: 40px;
-}
+    font-size: 40px;}
 #message {
     font-size: 30px;
     height: 150px;
-    width: 75%;
-}
+    width: 75%;}
 #submit-button {
     background: #04333C;
     color: #CBEA3E;
@@ -448,10 +337,7 @@ form button:hover {
     cursor: pointer;
     height: 4rem;
     width: 10rem;
-    font-size: 30px;
-}
-
-
+    font-size: 30px;}
 
  /* To cover screen widths up to a maximum of 1200px*/
  @media screen and (max-width: 1200px){
@@ -466,26 +352,18 @@ form button:hover {
     min-height: 70%;
     font-size: 2vh;
     margin: 2rem;}
-
-
 .subscribe-form input {
     width: 60%;
     height: 2vh;
     margin: 0.25rem;
-    font-size: 15px;
-}
-
+    font-size: 15px;}
 .subscribe-form label {
-    font-size: 20px;
-}
+    font-size: 20px;}
 #message {
     font-size: 15px;
-    height: 100px;
-}
-
+    height: 100px;}
 .subscribe-form h2 {
-    font-size: 35px;
-}
+    font-size: 35px;}
 #submit-button {
     background: #04333C;
     color: #CBEA3E;
@@ -496,7 +374,5 @@ form button:hover {
     margin-bottom: 1rem;
     cursor: pointer;
     height: 4rem;
-    width: 10rem;
-}
-}
+    width: 10rem;}}
 
