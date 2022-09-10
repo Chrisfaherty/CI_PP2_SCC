@@ -200,7 +200,7 @@ form button:hover {
  .choices button:hover {
     background: #04333C;
     color: #CBEA3E;}
- .resetButton input {
+ .resetButton button {
     background: #ea3e3e;
     color: #04333C;
     border-color: #04333C;
