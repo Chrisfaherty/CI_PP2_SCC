@@ -198,7 +198,7 @@ form button:hover {
  }
 
  .info{
-    color: azure;
+    color: #04333C;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -206,6 +206,9 @@ form button:hover {
     justify-content: space-around;
     font-size: 1.5rem;
     transition: opacity 0.5s ease;
+    border: 5%;
+    border-color:#CBEA3E;
+    border-radius: 5px;
  }
 
  .play-zone {
@@ -217,8 +220,9 @@ form button:hover {
  }
 
  .outcome {
-    color: azure;
+    color: #04333C;
     text-align: center;
+    font-size: 40px;
  }
 
  .items, .choices {
@@ -290,14 +294,13 @@ form button:hover {
 
     .items img {
         font-size: 0;
-        height: 150px;
-        width: 175px;
+        height: 225px;
+        width: 225px;
         display: inline;
         margin: 0;
         padding: 0;
     }
     .items{
-        flex-direction: column;
         flex-wrap: wrap;
         grid-auto-flow: row;
         justify-content: center;
@@ -312,9 +315,27 @@ form button:hover {
 
     }
 
-    .choices button, .info button {
+    .choices button {
         text-align: center;
         width: 100px;
+     }
+
+     .info button{
+        border-color:#CBEA3E;
+        border-radius: 5px;
+        text-align: center;
+        width: 200px;
+        height: 75px;
+        font-size: 30px;
+     }
+     .outcome{
+        font-size: 30px;
+        padding-top:12vh;
+        color: #04333C;
+     }
+
+     .resetButton{
+        padding-bottom: 7vh;
      }
 
 }
@@ -334,9 +355,9 @@ form button:hover {
     .outcome {
         font-size: 25px;
         font-weight: 900;
-        margin-top: 35vh;
+        margin-top: 5vh;
         margin-bottom: 10vh;
-        padding: 0;
+        padding-top: 0vh;
     }
 
     .items img {
@@ -365,6 +386,18 @@ form button:hover {
     .choices button, .info button{
         text-align: center;
         width: 100px;
+     }
+
+     .info {
+        font-size: 20px;
+     }
+
+     .info button{
+        border-color:#CBEA3E;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 20px;
+        width: 150px;
      }
      .resetButton {
         padding-bottom: 7vh;
