@@ -288,8 +288,9 @@ form button:hover {
 
     .choices button, .info button{
         text-align: center;
-        width: 100px;
-        font-size: 10px;}
+        width: 90px;
+        font-size: 10px;
+    padding: 5px;}
     .info {
         font-size: 20px;}
     .info button{
@@ -376,5 +377,4 @@ form button:hover {
     width: 10rem;}}
     .choices button {
         text-align: center;
-        width: 150px;
-        font-size: 20px;}
+        font-size: 15px;}
