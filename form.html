@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>SST</title>
 </head>
+<body>
 <!--This header includes the site logo and page links-->
 <header class="header">
 
@@ -34,7 +35,7 @@
             </ul>
         </nav>
 </header>
-<body>
+
 
     <section class="subscribe-section">
         <form class="subscribe-form">
@@ -54,12 +55,7 @@
                 <input type="submit" value="Send off" id="submit-button" onclick="sendMail()">
         </form>
    </section>
-    <script src="assets/js/form.js"></script>
-<!--EmailJS-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">(function(){emailjs.init("ar8nvoepKsy2RQrM8");})();</script>
-    <!-- -->
-</body>
+
 <!--this is the footer Section with the Social links html-->
 <footer>
     <ul class="social-links">
@@ -74,5 +70,10 @@
         </li>
     </ul>
 </footer>
-
+<script src="assets/js/form.js"></script>
+<!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">(function(){emailjs.init("ar8nvoepKsy2RQrM8");})();</script>
+    <!-- -->
+</body>
 </html>
