@@ -9,7 +9,7 @@
 /* Setting up the background color and layout */
 
 body {
-    background-color: #005CB8;
+    background-image: url('../images/background.jpg');
     color: #04333C;
     font-family: Lato, sans-serif;
     height: auto;
@@ -24,7 +24,7 @@ width: 100%;
 padding-left: 1rem;
 font-size: 1.5rem;
 font-family: 'Abril Fatface', sans-serif;
-color: azure;
+color: #04333C;
 }
 
 nav {
@@ -57,7 +57,7 @@ footer{
     bottom: 0;
     max-height: 10vh;
     width: 100%;
-    background-color: azure;
+    background-color: #04333C ;
     justify-content: center;
     align-items: center;
 }
@@ -67,8 +67,8 @@ footer{
     display: inline;}
 .social-links i{
     font-size: 2rem;
-    color: #04333C;
-    padding-left: 3rem;
+    color: #CBEA3E;
+    justify-content: space-around;
 }
 .social-links i:hover {
     color: #CBEA3E;}
