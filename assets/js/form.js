@@ -9,5 +9,5 @@ function sendMail(params){
 emailjs.send('service_3tbvdmq','template_psbp8aj',tempParams)
 .then(function(res){
     console.log('success', res.status);
-})
-};
+});
+}
