@@ -162,6 +162,11 @@ form button:hover {
     border: 5%;
     border-color:#CBEA3E;
     border-radius: 5px;}
+.info button{
+    width: 200px;
+    height: 75px;
+    font-size: 30px;}
+
  .play-zone {
     position: absolute;
     top: 50%;
