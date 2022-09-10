@@ -222,7 +222,7 @@ form button:hover {
  .outcome {
     color: #04333C;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
  }
 
  .items, .choices {
@@ -279,23 +279,19 @@ form button:hover {
     margin-top: 1rem;
  }
 
- /* To cover screen widths up to a maximum of 800px*/
-@media screen and (max-width: 800px){
+ /* To cover screen widths up to a maximum of 900px*/
+@media screen and (max-width: 900px){
     .score {
-        font-size: 15px;
-        margin-top: 3vh;
-    }
+        font-size: 20px;
+        margin-top: 3vh;}
 
     .outcome {
         font-size: 25px;
-        font-weight: 900;
-        margin-top: 10vh;
-    }
+        margin-top: 10vh;}
 
     .items img {
-        font-size: 0;
-        height: 225px;
-        width: 225px;
+        height: 200px;
+        width: 200px;
         display: inline;
         margin: 0;
         padding: 0;
@@ -353,8 +349,6 @@ form button:hover {
     }
 
     .outcome {
-        font-size: 25px;
-        font-weight: 900;
         margin-top: 5vh;
         margin-bottom: 10vh;
         padding-top: 0vh;
