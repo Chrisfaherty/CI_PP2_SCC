@@ -85,7 +85,9 @@ form {
 form input, form button {
     padding: 1rem;
     font-size: 2rem;
-    border: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #04333C;
     background: azure;
 }
 
@@ -108,8 +110,11 @@ form button:hover {
     align-items: center;
 }
 .shopping-items-list-item {
-    width: 50%;
+    width: 500px;
     list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #04333C;
     }
 
 .item-to-list {
