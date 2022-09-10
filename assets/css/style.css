@@ -106,7 +106,6 @@ form button:hover {
 .item-purchased-btn, .remove-item-btn {
     background: #CBEA3E;
     color: #04333C;
-    border: 5%;
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
@@ -159,7 +158,6 @@ form button:hover {
     justify-content: space-around;
     font-size: 1.5rem;
     transition: opacity 0.5s ease;
-    border: 5%;
     border-color:#CBEA3E;
     border-radius: 5px;}
 .info button{
@@ -194,7 +192,6 @@ form button:hover {
  .choices button, .info button {
     background: #CBEA3E;
     color: #04333C;
-    border: 5%;
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
@@ -206,7 +203,6 @@ form button:hover {
  .resetButton input {
     background: #ea3e3e;
     color: #04333C;
-    border: 5%;
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
@@ -334,7 +330,6 @@ form button:hover {
 #submit-button {
     background: #04333C;
     color: #CBEA3E;
-    border: 5%;
     border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
@@ -372,8 +367,6 @@ form button:hover {
 #submit-button {
     background: #04333C;
     color: #CBEA3E;
-    border: 5%;
-    border-color: #04333C;
     border-radius: 5px;
     padding: 1rem;
     margin-bottom: 1rem;
