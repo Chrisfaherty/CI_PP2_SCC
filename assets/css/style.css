@@ -242,7 +242,7 @@ form button:hover {
     .choices button {
         text-align: center;
         width: 125px;
-        font-size: 15;}
+        font-size: 15px;}
     .info button{
         border-color:#CBEA3E;
         border-radius: 5px;
@@ -374,4 +374,7 @@ form button:hover {
     cursor: pointer;
     height: 4rem;
     width: 10rem;}}
-
+    .choices button {
+        text-align: center;
+        width: 150px;
+        font-size: 20px;}
