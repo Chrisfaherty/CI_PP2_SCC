@@ -241,7 +241,8 @@ form button:hover {
         grid-template-columns: auto auto auto;}
     .choices button {
         text-align: center;
-        width: 100px;}
+        width: 125px;
+        font-size: 15;}
     .info button{
         border-color:#CBEA3E;
         border-radius: 5px;
