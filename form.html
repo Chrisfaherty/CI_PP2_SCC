@@ -38,21 +38,21 @@
 
 
     <section class="subscribe-section">
-        <form class="subscribe-form">
+        <form class="subscribe-form" id ='subscribe-form'>
             <h2>Provide Feedback</h2>   
                 <label for="to_name">Name</label>
                     <br>
-                <input type = "text" id="to_name" name="to_name" required>
+                <input type = "text" id="to_name" name="name" required>
                     <br>
                 <label for="email">Email Address</label>
                     <br>
-                <input type = "email" id="email" name="email_address" required>
+                <input type = "email" id="email" name="email" required>
                     <br>
                 <label for="message">Feedback</label>
                     <br>
                 <input type="text" id="message" name="message" required>
                     <br>
-                <input type="submit" value="Send off" id="submit-button" onclick="sendMail()">
+                <input type="submit" value="Send" id="submit-button">
         </form>
    </section>
 
@@ -75,8 +75,7 @@
 </footer>
 <script src="assets/js/form.js"></script>
 <!--EmailJS-->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script>(function(){emailjs.init("ar8nvoepKsy2RQrM8");})();</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- -->
 </body>
 </html>
