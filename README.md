@@ -82,7 +82,7 @@
 10. As the site owner, I want users to keep up to date site updates,
 11. As the site owner, I want users to be able to submit feedback.
 12. As the site owner, I want users to be able to complete the tasks they require.
-13. As the site owner, I want users to be able to have some fun.
+13. As the site owner, I want users to be able to complete the tasks they require.
 
 ## Design
 
@@ -200,14 +200,15 @@ The home page is structured is an intuative way where all the relevent informati
     * Google Chrome.
     * Safari.
     * Firefox.
-* The two webpages were tested to be responsive as a desktop, tablet and mobile screensize,
+* The three webpages were tested to be responsive as a desktop, tablet and mobile screensize,
 * All images and text was reviewed and confirmed to be readable,
-* The input for the pricing works,
-* The calculater function calculates correctly.
+* The inputs and buttons work,
+* The the form returns an email to the users inbox.
 
 ### Bugs
 **Solved Bugs**
-* xxxxxxxxxx
+* When working with the images in the game they tended to not connect correctly with the button.
+This was resolved by trial and error reviewing the js code. The arrey that was being indexed didnt line up with the order of the buttons. This caused it to mix the images. By correctly ordering the array this was resolved.
 
 ### Validator Testing
 * HTML
@@ -276,29 +277,31 @@ The home page is structured is an intuative way where all the relevent informati
     </details>
 
 ### Testing user stories
-1. As a first time user, I want to know what subscription packages are available.
+1. As a first time user, I want to be able to intuatively tell how I use the app.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected |
+| Info | Read the info section | Locating the rules and start button | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_1.png">
 </details>
 
-2. As a first time user, I want to know the package price range.
+2. As a first time user, I want to be able to add remove and check list items.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Packages | Scroll down to the packages section | Locating the four different packages prices | Works as expected |
+| Shopping list | Click on list in the nav bar | Locating the shopping list page | Works as expected |
+| Shopping list | Click on the + symbol on the list section | Creating a new line item | Works as expected |
+| Shopping list | Click on the check mark or minus to mark or delete the line item | fades out or deletes line item | works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_2.png">
+<img src="docs/readme.md/user_stories/user_story_2_a.png">
+<img src="docs/readme.md/user_stories/user_story_2_b.png">
 </details>
 
-3. As a first time user, I want to know the contact information.
+3. As a first time user, I want to know how to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -309,7 +312,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-4. As a first time user, I want to know where the office is located.
+4. As a first time user, I want to know how to access and play the game.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -320,7 +323,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-5. As a first time user, I want to be able to show my intrest in one of the packages and subscribe to hear more.
+5. As a first time user, I want to be able to reset the game to play again.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -331,7 +334,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-6. As a returning user, I want to know what the upcomming events are.
+6. As a returning user, I want to be able to quickly add items again and check them of during the day. 
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -342,7 +345,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-7. As a returning user, I want to be able to access the social media links.
+7. As a returning user, I want to be able to access the developers links.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -353,7 +356,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-8. As a returning user, I want to know the opening times.
+8. As a returning user, I want to have a target score to beat the game,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -364,7 +367,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-9. As a returning user , I want to be able to contact the the team.
+9. As a returning user , I want to be able to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -375,7 +378,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-10. As a returning user, I want to be able to see the updated photos in the gallery.
+10. As the site owner, I want users to keep up to date site updates,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -386,7 +389,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-11. As the site owner, I want users to keep up to date with package changes.
+11. As the site owner, I want users to be able to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -397,7 +400,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-12. As the site owner, I want users to be able to see the weekly events.
+12. As the site owner, I want users to be able to complete the tasks they require.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -408,7 +411,7 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-13. As the site owner, I want users to be able to subscribe to the package they want.
+13. As the site owner, I want users to be able to complete the tasks they require.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -419,12 +422,6 @@ The home page is structured is an intuative way where all the relevent informati
 <img src="">
 </details>
 
-14. As the site owner, I want users to be able to contact us.
-
-| **Feature** | **Action** | **Expected Results** | **Actual Result** |
-|-------------|------------|----------------------|-------------------|
-| Contact | Scroll down to the contact section | Locating the contact number and email address | Works as expected|
-
 <details><summary>Screenshots</summary>
 <img src="">
 <img src="">
@@ -434,18 +431,23 @@ The home page is structured is an intuative way where all the relevent informati
 * There is no unfixed bugs.
 
 ## Deployment
-* xxxxxxxx
-
+* SSC Site was deployed to GitHub page,
+* All commits and repositry info can be found on Git Hub,
 * The process to deploy a site to GitHub pages is as follows:
-    * xxxxxxxx
+    * Navigate to the settings tab at the top of the page in the navigation bar,
+    * Select pages on the left hand side of the settings nav bar,
+    * Once in pages the dropdown menu under branch select Main,
+    * Then click save and your URL will be generated shortly,
+    * Inorder to keep your deployed site up to date make sure to push your commits to GitHub.
 
 ## Credits
-* xxxxxxxxxx
+* Insperation was taken from dev eds with certain aspects of code. It is also commented in the code.
+* W3Schools was also used for specific parts of the code.
+
 
 ### Media
-* xxxxxxxxxxxx
-
-* Any image not mentioned above is owned by the developer.
+* Icons - Font Awsome.
+* Background - freepik.
 
 ## Acknowledgements
 I would like to take the opertunity to thank:
