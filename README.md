@@ -1,4 +1,4 @@
-# Simple & Smart Till
+# Seal Colony Cafe
 (Developer: Christopher Faherty)
 
 ![This is an screenshot of the responsive design image](./docs/readme.md/features/responsive_image.png)
