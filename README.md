@@ -105,20 +105,20 @@ The home page is structured is an intuative way where all the relevent informati
 
 ### Wireframes
 
-<details><summary>Calculater</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
 <details><summary>Game</summary>
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/readme.md/wireframe/game_desktop_wireframe.png">
+<img src="docs/readme.md/wireframe/game_ipad_wireframe.png">
+<img src="docs/readme.md/wireframe/game_iphone_wireframe.png">
 </details>
-<details><summary>Feedback</summary>
-<img src="">
-<img src="">
-<img src="">
+<details><summary>List</summary>
+<img src="docs/readme.md/wireframe/list_desktop_wireframe.png">
+<img src="docs/readme.md/wireframe/list_ipad_wireframe.png">
+<img src="docs/readme.md/wireframe/list_iphone_wireframe.png">
+</details>
+<details><summary>Form</summary>
+<img src="docs/readme.md/wireframe/form_desktop_wireframe.png">
+<img src="docs/readme.md/wireframe/form_ipad_wireframe.png">
+<img src="docs/readme.md/wireframe/form_iphone_wireframe.png">
 </details>
 
 ## Technologies Used
