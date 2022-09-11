@@ -132,7 +132,6 @@ The home page is structured is an intuative way where all the relevent informati
 * Git
 * GitHub
 * Gitpod
-* Tinypng
 * Favicon.io
 * Font Awosome
 * Google Fonts
@@ -144,24 +143,49 @@ The home page is structured is an intuative way where all the relevent informati
 ### Existing Features
 
 * Navigation Bar
-    * xxxxxx
+    * The navigation bar is situated at the top of the page,
+    * The navigation links to the game page & list are all positioned to the right hand side of the header,
+    * The black text in the navigation bar links contrasts nicely with the white background and main hero image below,
+    * This Navigation bar is clear to tell the website you are on and intuative to use navigation between each page.
 
-![This is an screenshot of the navigation bar]()
+![This is an screenshot of the navigation bar](docs/readme.md/features/header_nav.png)
 
-* The Checkout Page
-    * xxxxxxxx
+* The Info Screen
+    * The info screen is used to give the basic game rules,
+    * This screen has the access button to get into the game,
+    * this screen will fade away once lets go is clocked to reveal the game.
 
-![This is an screenshot of the landing page]()
+![This is an screenshot of the info page](docs/readme.md/features/info_screen.png)
+
+* The Game Screen
+    * This is where you play the main game. There is a few options for the user to interact with the choice buttons and the reset button,
+    * There is feedback when a button is clicked. The computer selects a image at the same time the user selects an image,
+    * When the choice button is selected the outcome text will say if it is a match or not,
+    * If it is a match it will update the score number, and the same if it is not a match,
+    * If you use all 10 chances and don't get 5 matches it will say you lost the game.
+
+![This is an screenshot of the info page](docs/readme.md/features/match_game.png)
 
 * The Footer 
+    * The footer section keeps the links static at the bottom of the page,
+    * The github, linkedin & feedback links open up a new webpage when they are clicked on,
+    * The icons were sourced and imported from font awosome,
+    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always  have access to the links
+
+![This is an screenshot of the footer section](docs/readme.md/features/footer.png)
+
+* Items list Page
+    * This page is minimalist styled. 
+    * The input in the center of the page lets you enter text and click the + to add the list below,
+    * Once the user adds a few line items you can clock the check mark to fade them out to be considered done,
+    * The user can also use the x to delete the line item off the page.
+
+![This is an screenshot of the List page](docs/readme.md/features/shopping_list.png)
+
+* Submission form Page
     * xxxxxxxx
 
-![This is an screenshot of the footer section]()
-
-* Items Page
-    * xxxxxxxx
-
-![This is an screenshot of the subscription form]()
+![This is an screenshot of the form page](docs/readme.md/features/form.png)
 
 ### Features Left to Implement
 * A feature that I would like to implement in the future is to add a premium service where they can add more items and store all of the orders on a console page,
