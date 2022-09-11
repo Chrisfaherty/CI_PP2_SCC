@@ -191,6 +191,23 @@ The home page is structured is an intuative way where all the relevent informati
 
 ![This is an screenshot of the form page](docs/readme.md/features/form.png)
 
+ FAQ Page
+    * The subscription form gathers the users data and they can input feedback on the product,
+    * The styling alines with the home page where there is a background image and color scheme,
+    * The form requires the name, email and a message to be entered.
+    * The form will send a response back to your email so you know we recieved it.
+
+![This is an screenshot of the form page](docs/readme.md/features/faq.png)
+
+ 404 Page
+    * The subscription form gathers the users data and they can input feedback on the product,
+    * The styling alines with the home page where there is a background image and color scheme,
+    * The form requires the name, email and a message to be entered.
+    * The form will send a response back to your email so you know we recieved it.
+
+![This is an screenshot of the form page](docs/readme.md/features/404.png)
+
+
 ### Features Left to Implement
 * A feature that I would like to implement in the future is to add a premium service where they can add more items and store all of the orders on a console page,
 
