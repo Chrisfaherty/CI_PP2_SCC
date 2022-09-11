@@ -10,7 +10,7 @@ const sendFormButton = document.getElementById("submit-button");
                 emailjs.sendForm('service_3tbvdmq','template_psbp8aj', this)
                     .then(function() {
                         sendFormButton.value = "Send";
-                        alert('Email Sent Sucessfully')
+                        alert('Email Sent Sucessfully');
                     }, function(error) {
                         console.log(JSON.stringify(error));
                     });

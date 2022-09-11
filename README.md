@@ -243,16 +243,7 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     </details>
 
 * Accessibility
-    *    <details><summary>Game</summary>
-    <img src="docs/readme.md/testing/index.html_lighthouse_checker.png">
-    </details>
-    <details><summary>List</summary>
-    <img src="docs/readme.md/testing/list.html_lighthouse_checker.png">
-    </details>
-    <details><summary>Form</summary>
-    <img src="docs/readme.md/testing/form.html_lighthouse_checker.png">
-    </details>
-
+    *  No errors were found when passing the site pages through the [official accessability](https://wave.webaim.org/)  
     <details><summary>Game</summary>
     <img src="docs/readme.md/testing/wave_index.png">
     </details>
@@ -261,6 +252,12 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     </details>
     <details><summary>Form</summary>
     <img src="docs/readme.md/testing/wave_form.png">
+    </details>
+    <details><summary>404</summary>
+    <img src="docs/readme.md/testing/wave_404.png">
+    </details>
+    <details><summary>Faq</summary>
+    <img src="docs/readme.md/testing/wave_faq.png">
     </details>
 
 * Performance
@@ -274,6 +271,12 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     </details>
     <details><summary>Form</summary>
     <img src="docs/readme.md/testing/form.html_lighthouse_checker.png">
+    </details>
+    <details><summary>404</summary>
+    <img src="docs/readme.md/testing/404.html_lighthouse_checker.png">
+    </details>
+    <details><summary>Faq</summary>
+    <img src="docs/readme.md/testing/faq.html_lighthouse_checker.png">
     </details>
 
 * Java Script
