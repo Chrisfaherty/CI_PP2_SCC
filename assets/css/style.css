@@ -406,3 +406,20 @@ form button:hover {
         padding-right: 5%;
         font-size: 150%;}
 
+/* FAQ Page Styling*/
+    .faq {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .faq h3 {
+        padding-top: 30px;
+        text-align: left;
+    }
+    .faq p {
+        padding-top: 10px;
+        text-align: left;
+    }
+    .bottom-li {
+        padding-bottom: 50px;
+    }
