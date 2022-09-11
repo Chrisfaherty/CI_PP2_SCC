@@ -11,7 +11,6 @@ emailjs.send('service_3tbvdmq','template_psbp8aj',tempParams)
 .then(function(res){
     console.log('success', res.status);
 }
-
 );
 }
 (function(){emailjs.init("ar8nvoepKsy2RQrM8");})();
