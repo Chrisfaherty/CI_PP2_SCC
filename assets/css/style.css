@@ -221,8 +221,12 @@ form button:hover {
         font-size: 20px;
         margin-top: 3vh;}
     .outcome {
-        font-size: 25px;
-        margin-top: 10vh;}
+        font-size: 25px;;
+        color: #04333C;}
+    .play-zone{
+        height: 10px;
+        padding-bottom: 200px;
+    }
     .items img {
         height: 200px;
         width: 200px;
@@ -250,24 +254,19 @@ form button:hover {
         width: 200px;
         height: 75px;
         font-size: 25px;}
-     .outcome{
-        font-size: 30px;
-        padding-top:12vh;
-        color: #04333C;}
      .resetButton{
         padding-bottom: 7vh;}}
 
 /* To cover screen widths up to a maximum of 500px*/
 @media screen and (max-width: 500px){
     .score {
-        font-size: 20px;
-        margin-top: 10vh;
+        font-size: 20px;;
         height: 10vh;}
     .play-zone {
         margin: 0;}
     .outcome {
-        margin-top: 25vh;
-        margin-bottom: 10vh;}
+        margin-top: 0;
+        margin-bottom: 0;}
     .items img {
         font-size: 0;
         height: 150px;
