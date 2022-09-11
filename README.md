@@ -310,7 +310,7 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 
 <details><summary>Screenshots</summary>
 <img src="docs/readme.md/user_stories/user_story_3_a.png">
-<img src="docs/readme.md/user_stories/user_story_3_a.png">
+<img src="docs/readme.md/user_stories/user_story_3_b.png">
 </details>
 
 4. As a first time user, I want to know how to access and play the game.
@@ -353,44 +353,42 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Social Media | Scroll down to the footer section and select the link to the social platform | Locating the three different social links | Works as expected|
+| Footer | Scroll down to the footer section and select the github link | opens up the github depo | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_7.png">
 </details>
 
 8. As a returning user, I want to have a target score to beat the game,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Opening Times | Scroll down to the contact section | Locating the opening times | Works as expected|
+| Info | on the info section it says what the target score is | Locating the target score | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_1.png">
 </details>
 
 9. As a returning user , I want to be able to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Contact | Scroll down to the contact section | Locating the phone number and email address | Works as expected|
+| Feedback | Click on the evnalope icon in the footer | Opens the feedback page | Works as expected |
+| Feedback | Fill out the form and click send off | Sends a response email to the users inbox| Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_3_a.png">
+<img src="docs/readme.md/user_stories/user_story_3_b.png">
 </details>
 
-10. As the site owner, I want users to keep up to date site updates,
+10. As the site owner, I want users to keep up to date with site updates,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Gallery | Select the gallery link in the navigation bar, then navigate to the gallery page | Locating the gallery images | Works as expected|
+| Github | Select the github icon opens up the github in a new Page | Locating the github repo with all the most recent updates | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_7.png">
 </details>
 
 11. As the site owner, I want users to be able to submit feedback.
