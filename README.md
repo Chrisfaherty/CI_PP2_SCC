@@ -87,16 +87,21 @@
 ## Design
 
 ### Design Choices
-
+The site was designed to have a minimal look and highlight all the relevent components. The site was designed in a way to feel relaxing.
 
 ### Colour
-
+The colour scheme used in this project is a white backgound with black text. This went alogn with a ocean color scheme.
+<img src="docs/readme.md/features/color_scheme.png">
 
 ### Fonts
-
+The fonts that were chosen were Lato for the logo and Abril Fatface for the content. Both of these fonts had a fall back of sans-serif.
 
 ### Structure
-
+The home page is structured is an intuative way where all the relevent information is presented at the correct time,
+* The first screen is the info screen that lets you enter the game, With only one button you can't go wrong,
+* The game is then intuative to play with text feedback and images changing depending on the button you press,
+* In the nav bar you can access the list page if you want to create a list of items and tick them off as you go,
+* in the footer you can find the email icon that brings you to a feedback form.
 
 ### Wireframes
 
