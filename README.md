@@ -136,6 +136,7 @@ The home page is structured is an intuative way where all the relevent informati
 * Font Awosome
 * Google Fonts
 * Balsamiq
+* EmailJS
 
 ## Features
 
@@ -183,7 +184,10 @@ The home page is structured is an intuative way where all the relevent informati
 ![This is an screenshot of the List page](docs/readme.md/features/shopping_list.png)
 
 * Submission form Page
-    * xxxxxxxx
+    * The subscription form gathers the users data and they can input feedback on the product,
+    * The styling alines with the home page where there is a background image and color scheme,
+    * The form requires the name, email and a message to be entered.
+    * The form will send a response back to your email so you know we recieved it.
 
 ![This is an screenshot of the form page](docs/readme.md/features/form.png)
 
@@ -209,37 +213,66 @@ The home page is structured is an intuative way where all the relevent informati
 * HTML
     * No errors were found when passing the site pages through the [official W3C validator](https://validator.w3.org/)
 
-    <details><summary>Items</summary>
-    <img src="">
+    <details><summary>Game</summary>
+    <img src="docs/readme.md/testing/form.html_html_checker.png">
     </details>
-    <details><summary>Checkout</summary>
-    <img src="">
+    <details><summary>List</summary>
+    <img src="docs/readme.md/testing/list.html_html_checker.png">
+    </details>
+    <details><summary>Form</summary>
+    <img src="docs/readme.md/testing/form.html_html_checker.png">
     </details>
 
 * CSS
     * No errors were found when passing the site pages through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
     <details><summary>Image</summary>
-    <img src="">
+    <img src="docs/readme.md/testing/scc_css_checker.png">
     </details>
 
 * Accessibility
-    * No errors or contrast were found when passing the site pages through the [official wave.webaim validator](https://wave.webaim.org/)
-
-    <details><summary>Items</summary>
-    <img src="">
+    *    <details><summary>Game</summary>
+    <img src="docs/readme.md/testing/index.html_lighthouse_checker.png">
     </details>
-    <details><summary>Checkout</summary>
-    <img src="">
+    <details><summary>List</summary>
+    <img src="docs/readme.md/testing/list.html_lighthouse_checker.png">
+    </details>
+    <details><summary>Form</summary>
+    <img src="docs/readme.md/testing/form.html_lighthouse_checker.png">
+    </details>
+
+    <details><summary>Game</summary>
+    <img src="docs/readme.md/testing/wave_index.png">
+    </details>
+    <details><summary>List</summary>
+    <img src="docs/readme.md/testing/wave_list.png">
+    </details>
+    <details><summary>Form</summary>
+    <img src="docs/readme.md/testing/wave_form.png">
     </details>
 
 * Performance
     * The performance was tested in lighthouse on the chrome browser on all pages.
 
-    <details><summary>Items</summary>
-    <img src="">
+    <details><summary>Game</summary>
+    <img src="docs/readme.md/testing/index.html_lighthouse_checker.png">
     </details>
-    <details><summary>Checkout</summary>
-    <img src="">
+    <details><summary>List</summary>
+    <img src="docs/readme.md/testing/list.html_lighthouse_checker.png">
+    </details>
+    <details><summary>Form</summary>
+    <img src="docs/readme.md/testing/form.html_lighthouse_checker.png">
+    </details>
+
+* Java Script
+    * No errors were found when passing the site pages through the [official (JShint) validator](https://jshint.com/)
+    <details><summary>Game</summary>
+    <img src="docs/readme.md/testing/game.js_js_checker.png">
+    </details>
+    <details><summary>List</summary>
+    <img src="docs/readme.md/testing/list.js_js_checker.png">
+    </details>
+    <details><summary>Form</summary>
+    <img src="docs/readme.md/testing/form.js_js_checker.png">
     </details>
 
 ### Testing user stories
