@@ -1,9 +1,9 @@
 # Simple & Smart Till
 (Developer: Christopher Faherty)
 
-![This is an screenshot of the responsive design image]()
+![This is an screenshot of the responsive design image](./docs/readme.md/features/responsive_image.png)
 
-[Live Webpage](https://chrisfaherty.github.io/CI_PP2_SST/)
+[Live Webpage](https://chrisfaherty.github.io/CI_PP2_SCC/)
 
 ## Table of Content
 
@@ -35,47 +35,54 @@
 ## Project Goals
 
 ### User Goals
-* Finding a Way to quickly calculate the sum of items
+* Finding an add that I can use as a shopping list,
+* Having a fun game on the app as well,
+* Having a way to give feedback and sugestions,
+* Having a minimalist design where it is only nessessary information available.
 
 
 ### Site Owner Goals
-* Provide a way for small cafe owners to calculate the sume of items effectivally.
+* Provide a way for users to add remove and mark items in a shopping list,
+* Provide a fun interactive game that the user can play,
+* provide a method to give product feedback for future itterations.
 
 
 ## User Experience
 
 ### Target Audience
-* People with small cafes or stores
+* People that make lists,
+* People looking to track tasks or items,
+* People looking for a fun matching game.
 
 ### User Requirements and Expectations
-* A intuative navigation bar.
-* All relevent information can be found with out an issue.
-* All buttons can be pressed easily and are large enough on all screen sizes.
-* Straight forward way to update the pricing for each item.
-* A site that is Accessability focused
-* A clear method to contact support.
+* A intuative navigation bar,
+* All relevent information can be found with out an issue,
+* All buttons can be pressed easily and are large enough on all screen sizes,
+* Straight forward way to add check and remove items from the list,
+* A site that is Accessability focused,
+* A clear method to submit feedback,
+* A fun game to pass time.
 
 ### User Stories
 
 #### First-time  User
 1. As a first time user, I want to be able to intuatively tell how I use the app.
-2. As a first time user, I want to be able to clear the calculation with one button.
-3. As a first time user, I want to know the contact information.
-4. As a first time user, I want to know how to set up the check out screen.
-5. As a first time user, I want to be able to update my pricing with out contacting support.
+2. As a first time user, I want to be able to add remove and check list items.
+3. As a first time user, I want to know how to submit feedback.
+4. As a first time user, I want to know how to access and play the game.
+5. As a first time user, I want to be able to reset the game to play again.
 
 #### Returning User
-6. As a returning user, I want to be able to quickly set up the app for the day. 
-7. As a returning user, I want to be able to access the social media links.
-8. As a returning user, I want to know the opening times.
-9. As a returning user , I want to be able to contact the the team.
-10. As a returning user, I want to be able to see the updated photos in the gallery.
+6. As a returning user, I want to be able to quickly add items again and check them of during the day. 
+7. As a returning user, I want to be able to access the developers links.
+8. As a returning user, I want to have a target score to beat the game,
+9. As a returning user , I want to be able to submit feedback.
 
 #### Site Owner
-11. As the site owner, I want users to keep up to date with package changes.
-12. As the site owner, I want users to be able to see the weekly events.
-13. As the site owner, I want users to be able to subscribe to the package they want.
-14. As the site owner, I want users to be able to contact us.
+10. As the site owner, I want users to keep up to date site updates,
+11. As the site owner, I want users to be able to submit feedback.
+12. As the site owner, I want users to be able to complete the tasks they require.
+13. As the site owner, I want users to be able to have some fun.
 
 ## Design
 
