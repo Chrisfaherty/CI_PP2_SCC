@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 /* This function is to connect the form with EmailJS */
 const sendFormButton = document.getElementById("submit-button");
 

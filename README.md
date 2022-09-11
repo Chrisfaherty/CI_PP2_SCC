@@ -243,7 +243,7 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     </details>
 
 * Accessibility
-    *  No errors were found when passing the site pages through the [official accessability](https://wave.webaim.org/)  
+    *  No errors were found when passing the site pages through the [official accessability](https://wave.webaim.org/)
     <details><summary>Game</summary>
     <img src="docs/readme.md/testing/wave_index.png">
     </details>
@@ -262,7 +262,6 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 
 * Performance
     * The performance was tested in lighthouse on the chrome browser on all pages.
-
     <details><summary>Game</summary>
     <img src="docs/readme.md/testing/index.html_lighthouse_checker.png">
     </details>

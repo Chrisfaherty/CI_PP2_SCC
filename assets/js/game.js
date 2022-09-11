@@ -96,6 +96,9 @@
             };
         
         const resetGame = function () {
+
+            let isGameOver = false;
+
             reset.addEventListener("click", function(){
                     isGameOver = false;
                     mScore = 0;

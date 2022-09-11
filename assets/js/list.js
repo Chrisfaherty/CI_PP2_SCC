@@ -1,8 +1,8 @@
+/*jshint esversion: 6 */
 //Selectors
 const shoppingListInput = document.querySelector('.shopping-list-input');
 const shoppingListButton = document.querySelector('.shopping-list-button');
 const shoppingItemsListItem = document.querySelector('.shopping-items-list-item');
-const shoppingItemsList = document.querySelector('.shopping-items-list');
 
 //Event Listeners
 shoppingListButton.addEventListener('click', addItemToList);
