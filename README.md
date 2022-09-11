@@ -305,44 +305,48 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Contact | Scroll down to the contact section | Locating the contact information | Works as expected |
+| Feedback | Click on the evnalope icon in the footer | Opens the feedback page | Works as expected |
+| Feedback | Fill out the form and click send off | Sends a response email to the users inbox| Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_3_a.png">
+<img src="docs/readme.md/user_stories/user_story_3_a.png">
 </details>
 
 4. As a first time user, I want to know how to access and play the game.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Location | Scroll down to the location section | Locating the loaction information | Works as expected |
+| Game | Click on the let's go button  | reveals the game | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_4.png">
 </details>
 
 5. As a first time user, I want to be able to reset the game to play again.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected |
+| Game | Click on the let's go button  | reveals the game | Works as expected |
+| Game | Click on the reset button | Resets score and images back to default | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_4.png">
+<img src="docs/readme.md/user_stories/user_story_5.png">
 </details>
 
 6. As a returning user, I want to be able to quickly add items again and check them of during the day. 
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Events | Scroll down to the events section | Locating the weekly events | Works as expected |
+| Shopping list | Click on list in the nav bar | Locating the shopping list page | Works as expected |
+| Shopping list | Click on the + symbol on the list section | Creating a new line item | Works as expected |
+| Shopping list | Click on the check mark to mark the line item | fades out line item | works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_2.png">
+<img src="docs/readme.md/user_stories/user_story_2_a.png">
+<img src="docs/readme.md/user_stories/user_story_6.png">
 </details>
 
 7. As a returning user, I want to be able to access the developers links.
