@@ -373,7 +373,28 @@ form button:hover {
     margin-bottom: 1rem;
     cursor: pointer;
     height: 4rem;
-    width: 10rem;}}
+    width: 10rem;}
     .choices button {
         text-align: center;
-        font-size: 15px;}
+        font-size: 15px;}}
+
+    /* 404 Page Styling*/
+    .error-page-sc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: 500px;}
+        .error-page-h1{
+        margin-bottom: 20px;}
+        .error-page-h2{
+        font-size: 400%;
+        margin-bottom:20px;}
+    .error-page-p{
+        height:100px;
+        padding-top: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 150%;}
+
