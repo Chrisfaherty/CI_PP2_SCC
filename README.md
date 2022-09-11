@@ -192,18 +192,13 @@ The home page is structured is an intuative way where all the relevent informati
 ![This is an screenshot of the form page](docs/readme.md/features/form.png)
 
  FAQ Page
-    * The subscription form gathers the users data and they can input feedback on the product,
-    * The styling alines with the home page where there is a background image and color scheme,
-    * The form requires the name, email and a message to be entered.
-    * The form will send a response back to your email so you know we recieved it.
+    * The faq page goes over the most asked questions.
+    * This page will be updated with feadback recieved from the user.
 
 ![This is an screenshot of the form page](docs/readme.md/features/faq.png)
 
  404 Page
-    * The subscription form gathers the users data and they can input feedback on the product,
-    * The styling alines with the home page where there is a background image and color scheme,
-    * The form requires the name, email and a message to be entered.
-    * The form will send a response back to your email so you know we recieved it.
+    * The 404 page has all links to return it back to the where the user meant to go.
 
 ![This is an screenshot of the form page](docs/readme.md/features/404.png)
 
