@@ -213,7 +213,7 @@ The home page is structured is an intuative way where all the relevent informati
 
 
 ### Features Left to Implement
-* A feature that I would like to implement in the future is to add a premium service where they can add more items and store all of the orders on a console page,
+* A feature that I would like to implement in the future is to add till page that could be set up when the cafe items are selected and it can calculate the cost of each order,
 
 ## Testing
 
@@ -226,17 +226,14 @@ The home page is structured is an intuative way where all the relevent informati
 * The inputs and buttons work,
 * The the form returns an email to the users inbox.
 
-### Bugs
-**Solved Bugs**
-* When working with the images in the game they tended to not connect correctly with the button.
-This was resolved by trial and error reviewing the js code. The arrey that was being indexed didnt line up with the order of the buttons. This caused it to mix the images. By correctly ordering the array this was resolved.
+
 
 ### Validator Testing
 * HTML
     * No errors were found when passing the site pages through the [official W3C validator](https://validator.w3.org/)
 
     <details><summary>Game</summary>
-    <img src="docs/readme.md/testing/form.html_html_checker.png">
+    <img src="docs/readme.md/testing/index.html_html_checker.png">
     </details>
     <details><summary>List</summary>
     <img src="docs/readme.md/testing/list.html_html_checker.png">
@@ -464,6 +461,8 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 <details><summary>Screenshots</summary>
 <img src="docs/readme.md/user_stories/user_story_14.png">
 </details>
+
+## Bugs
 
 ### Unfixed Bugs
 * If there was an invalid url entered there was no 404 page available.

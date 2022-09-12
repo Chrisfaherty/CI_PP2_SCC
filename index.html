@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!--font awesome and google fonts-->
     <script src="https://kit.fontawesome.com/33c51add7d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,20 +18,19 @@
 </head>
 <body>
 <!--This header includes the site logo and page links-->
-<header class="header">
-    <h1 class="heading">Match Game</h1>
-        <nav class="navbar">
-            <ul id="menu">
-                <li>
-                    <a href="index.html" class="active">Game</a>
-                </li>
-                <li>
-                    <a href="list.html">List</a>
-                </li>
-            </ul>
-        </nav>
-</header>
-
+    <header class="header">
+        <h1 class="heading">Match Game</h1>
+            <nav class="navbar">
+                <ul id="menu">
+                    <li>
+                        <a href="index.html" class="active">Game</a>
+                    </li>
+                    <li>
+                        <a href="list.html">List</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
     <section class="game">
 <!--This is where the score will be shown-->
         <div class="score">
@@ -48,19 +46,19 @@
 <!--this will be a pop up start screen with info on how to play -->
         <div class="info">
             <h2>Match the items</h2>
-            <p>Match 5 items in 10 goes to WIN!</p>
-            <p>Click "Let's Go" to enter</p>
-            <p>Click any item to try and match</p>
-            <p>More info in <a href="faq.html">FAQ</a></p>
+                <p>Match 5 items in 10 goes to WIN!</p>
+                <p>Click "Let's Go" to enter</p>
+                <p>Click any item to try and match</p>
+                <p>More info in <a href="faq.html">FAQ</a></p>
             <button aria-label="enter-game-button">Let's Go</button>
         </div>
 <!--This is the area that the images will apear-->
         <div class="play-zone fadeOut">
             <h2 class="outcome">Choose an item</h2>
-            <div class="items">
-                <img id="human-img" class ="humanSelect" src="./assets/images/coffee.png" alt="coffee">
-                <img id="computer-img" class ="computerSelect" src="./assets/images/coffee.png" alt="coffee">
-            </div>
+                <div class="items">
+                    <img id="human-img" class ="humanSelect" src="./assets/images/coffee.png" alt="coffee">
+                    <img id="computer-img" class ="computerSelect" src="./assets/images/coffee.png" alt="coffee">
+                </div>
 <!--These are the different choices that will be in the game-->
             <div class="choices">
                 <button class="control" aria-label="coffee" data-choice="0">Coffee</button>
@@ -70,13 +68,11 @@
                 <button class="control" aria-label="cookie" data-choice="4">Cookie</button>
                 <button class="control" aria-label="ice-cream" data-choice="5">Ice Cream</button>
             </div>
-            <div class="resetButton">
-                <input id ="reset" type="reset" aria-label="reset-button">
-            </div>
+        <div class="resetButton">
+            <input id ="reset" type="reset" aria-label="reset-button">
+        </div>
         </div>
     </section>
-
-
 <!--this is the footer Section with the Social links html-->
 <footer>
     <ul class="social-links">
