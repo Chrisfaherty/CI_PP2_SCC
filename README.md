@@ -71,18 +71,19 @@
 3. As a first time user, I want to know how to submit feedback.
 4. As a first time user, I want to know how to access and play the game.
 5. As a first time user, I want to be able to reset the game to play again.
+6. As a first time user, I want to have a fequently asked questions section.
 
 #### Returning User
-6. As a returning user, I want to be able to quickly add items again and check them of during the day. 
-7. As a returning user, I want to be able to access the developers links.
-8. As a returning user, I want to have a target score to beat the game,
-9. As a returning user , I want to be able to submit feedback.
+7. As a returning user, I want to be able to quickly add items again and check them of during the day. 
+8. As a returning user, I want to be able to access the developers links.
+9. As a returning user, I want to have a target score to beat the game,
+10. As a returning user , I want to be able to submit feedback.
 
 #### Site Owner
-10. As the site owner, I want users to keep up to date site updates,
-11. As the site owner, I want users to be able to submit feedback.
-12. As the site owner, I want users to be able to complete the tasks they require.
+11. As the site owner, I want users to keep up to date site updates,
+12. As the site owner, I want users to be able to submit feedback.
 13. As the site owner, I want users to be able to complete the tasks they require.
+14. As the site owner, I want users to be able to complete the tasks they require.
 
 ## Design
 
@@ -101,7 +102,7 @@ The home page is structured is an intuative way where all the relevent informati
 * The first screen is the info screen that lets you enter the game, With only one button you can't go wrong,
 * The game is then intuative to play with text feedback and images changing depending on the button you press,
 * In the nav bar you can access the list page if you want to create a list of items and tick them off as you go,
-* in the footer you can find the email icon that brings you to a feedback form.
+* In the footer you can find the email icon that brings you to a feedback form.
 
 ### Wireframes
 
@@ -234,6 +235,12 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     </details>
     <details><summary>Form</summary>
     <img src="docs/readme.md/testing/form.html_html_checker.png">
+    </details>
+    <details><summary>404</summary>
+    <img src="docs/readme.md/testing/404.html_html_checker.png">
+    </details>
+    <details><summary>Faq</summary>
+    <img src="docs/readme.md/testing/faq.html_html_checker.png">
     </details>
 
 * CSS
@@ -444,10 +451,21 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 </details>
 
 ### Unfixed Bugs
-* There is no unfixed bugs.
+* If there was an invalid url entered there was no 404 page available.
+    * This was fixed by creating a custom 404 page for the site.
+* When submitting the form there was no indication if it was submittind or in progress.
+    * Adding a alert to notify the user and a sending element to the button to notify the used action was being taken.
+* The emailJS component of the form was failing to sent a reply to the inputed email. 
+    * The code was taken back to the bairminimum required to complete the task.
+* The game was difficult to understand what is to be done to play the game.
+    * Additional instructions were added to the info screen and a FAQ's section was generated.
+* The list section was tough for the user to under stand its purpose.
+    * Additional instructions were added to the list screen and a FAQ's section was generated.
 
 ## Deployment
-* SSC Site was deployed to GitHub page,
+
+### GitHub pages
+* SCC Site was deployed to GitHub page,
 * All commits and repositry info can be found on Git Hub,
 * The process to deploy a site to GitHub pages is as follows:
     * Navigate to the settings tab at the top of the page in the navigation bar,
@@ -456,14 +474,26 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
     * Then click save and your URL will be generated shortly,
     * Inorder to keep your deployed site up to date make sure to push your commits to GitHub.
 
+### Forking the GitHub Repository
+* Go to the GitHub repository,
+* In the top right hand corner you can click on the fork button,
+* This will fork the repositry.
+
 ## Credits
 * Insperation was taken from dev eds with certain aspects of code. It is also commented in the code.
 * W3Schools was also used for specific parts of the code.
+* Stackoverflow.com was used to help troublt shoot issues that occured.
+* The DEV ED coding course was used for insperation on the list section,
+* The insperation for the matching game was from DEV ED and the sample code institute rock paper scissors project,
+* The form js was sorced from the Emailjs website as their stock code.
 
 
 ### Media
-* Icons - Font Awsome.
-* Background - freepik.
+* Site icons in in the footer and the game buttons were taken from Fontawesome,
+* The images for the items were taken from font awesome,
+* The background image was sourced from freepak,
+* The favicon was generated from favicon.com.
+
 
 ## Acknowledgements
 I would like to take the opertunity to thank:
