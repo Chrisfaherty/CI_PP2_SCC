@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+// Insperation for the below code cane from Dev Ed's codeing course
 //Selectors
 const shoppingListInput = document.querySelector('.shopping-list-input');
 const shoppingListButton = document.querySelector('.shopping-list-button');
@@ -40,7 +41,6 @@ function addItemToList(addItem){
 }
 
 // This function uses the above buttons to mark as complete of remove the item off the list
-
 function removeItemFromList(additem){
     const item = additem.target;
     if (item.classList[0] === "remove-item-btn"){
