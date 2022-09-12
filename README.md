@@ -33,6 +33,9 @@
 11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
+The goal of this site is to run like a brainstorm to work on selecting items fo place in a cafe.
+There will be an ice breaker game to get the creative juices flowing.
+There will also be a list function to get your ideas down and a feedback section where you can submit the idea.
 
 ### User Goals
 * Finding an add that I can use as a shopping list,

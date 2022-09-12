@@ -16,6 +16,7 @@ shoppingItemsListItem.addEventListener('click', removeItemFromList);
 // Add item to list button function
 // check an item as complete on the list button
 // Remove item from list button
+// The bloaw code was sourced from dev eds course and altered to suit the shopping list application
 function addItemToList(addItem){
     addItem.preventDefault();
 
