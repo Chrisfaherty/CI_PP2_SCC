@@ -467,7 +467,7 @@ The home page is structured is an intuative way where all the relevent informati
 
 ## Bugs
 
-### Unfixed Bugs
+### fixed Bugs
 * If there was an invalid url entered there was no 404 page available.
     * This was fixed by creating a custom 404 page for the site.
 * When submitting the form there was no indication if it was submittind or in progress.
