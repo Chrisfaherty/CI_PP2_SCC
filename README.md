@@ -83,7 +83,7 @@
 11. As the site owner, I want users to keep up to date site updates,
 12. As the site owner, I want users to be able to submit feedback.
 13. As the site owner, I want users to be able to complete the tasks they require.
-14. As the site owner, I want users to be able to complete the tasks they require.
+14. As the site owner, I want users to be able to return if this access a invalid link.
 
 ## Design
 
@@ -149,13 +149,15 @@ The home page is structured is an intuative way where all the relevent informati
     * The navigation links to the game page & list are all positioned to the right hand side of the header,
     * The black text in the navigation bar links contrasts nicely with the white background and main hero image below,
     * This Navigation bar is clear to tell the website you are on and intuative to use navigation between each page.
+    * User stories covered: 2, 7, 13
 
 ![This is an screenshot of the navigation bar](docs/readme.md/features/header_nav.png)
 
 * The Info Screen
     * The info screen is used to give the basic game rules,
     * This screen has the access button to get into the game,
-    * this screen will fade away once lets go is clocked to reveal the game.
+    * This screen will fade away once lets go is clocked to reveal the game.
+    * User stories covered: 1, 4, 9
 
 ![This is an screenshot of the info page](docs/readme.md/features/info_screen.png)
 
@@ -165,14 +167,16 @@ The home page is structured is an intuative way where all the relevent informati
     * When the choice button is selected the outcome text will say if it is a match or not,
     * If it is a match it will update the score number, and the same if it is not a match,
     * If you use all 10 chances and don't get 5 matches it will say you lost the game.
+    * User stories covered: 5
 
 ![This is an screenshot of the info page](docs/readme.md/features/match_game.png)
 
 * The Footer 
     * The footer section keeps the links static at the bottom of the page,
-    * The github, linkedin & feedback links open up a new webpage when they are clicked on,
+    * The github, linkedin, feedback & faq links open up a new webpage when they are clicked on,
     * The icons were sourced and imported from font awosome,
-    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always  have access to the links
+    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always  have access to the links,
+    * User stories covered: 3, 8, 11
 
 ![This is an screenshot of the footer section](docs/readme.md/features/footer.png)
 
@@ -181,6 +185,7 @@ The home page is structured is an intuative way where all the relevent informati
     * The input in the center of the page lets you enter text and click the + to add the list below,
     * Once the user adds a few line items you can clock the check mark to fade them out to be considered done,
     * The user can also use the x to delete the line item off the page.
+    * User stories covered: 2, 7, 13
 
 ![This is an screenshot of the List page](docs/readme.md/features/shopping_list.png)
 
@@ -189,17 +194,20 @@ The home page is structured is an intuative way where all the relevent informati
     * The styling alines with the home page where there is a background image and color scheme,
     * The form requires the name, email and a message to be entered.
     * The form will send a response back to your email so you know we recieved it.
+    * User stories covered: 3, 10, 12
 
 ![This is an screenshot of the form page](docs/readme.md/features/form.png)
 
- FAQ Page
+ * FAQ Page
     * The faq page goes over the most asked questions.
     * This page will be updated with feadback recieved from the user.
+    * User stories covered: 6, 9
 
 ![This is an screenshot of the form page](docs/readme.md/features/faq.png)
 
- 404 Page
+ * 404 Page
     * The 404 page has all links to return it back to the where the user meant to go.
+    * User stories covered: 14
 
 ![This is an screenshot of the form page](docs/readme.md/features/404.png)
 
@@ -356,7 +364,16 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 <img src="docs/readme.md/user_stories/user_story_5.png">
 </details>
 
-6. As a returning user, I want to be able to quickly add items again and check them of during the day. 
+6. As a first time user, I want to have a fequently asked questions section.
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Feedback | Click on the question mark icon in the footer | Opens the faq page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user_stories/user_story_6.png">
+</details>
+
+7. As a returning user, I want to be able to quickly add items again and check them of during the day. 
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -367,20 +384,20 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 <details><summary>Screenshots</summary>
 <img src="docs/readme.md/user_stories/user_story_2.png">
 <img src="docs/readme.md/user_stories/user_story_2_a.png">
-<img src="docs/readme.md/user_stories/user_story_6.png">
+<img src="docs/readme.md/user_stories/user_story_7.png">
 </details>
 
-7. As a returning user, I want to be able to access the developers links.
+8. As a returning user, I want to be able to access the developers links.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Footer | Scroll down to the footer section and select the github link | opens up the github depo | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/readme.md/user_stories/user_story_7.png">
+<img src="docs/readme.md/user_stories/user_story_8.png">
 </details>
 
-8. As a returning user, I want to have a target score to beat the game,
+9. As a returning user, I want to have a target score to beat the game,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -390,7 +407,7 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 <img src="docs/readme.md/user_stories/user_story_1.png">
 </details>
 
-9. As a returning user , I want to be able to submit feedback.
+10. As a returning user , I want to be able to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
@@ -402,52 +419,50 @@ This was resolved by trial and error reviewing the js code. The arrey that was b
 <img src="docs/readme.md/user_stories/user_story_3_b.png">
 </details>
 
-10. As the site owner, I want users to keep up to date with site updates,
+11. As the site owner, I want users to keep up to date with site updates,
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Github | Select the github icon opens up the github in a new Page | Locating the github repo with all the most recent updates | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/readme.md/user_stories/user_story_7.png">
+<img src="docs/readme.md/user_stories/user_story_8.png">
 </details>
 
-11. As the site owner, I want users to be able to submit feedback.
+12. As the site owner, I want users to be able to submit feedback.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected|
+| Feedback | Click on the evnalope icon in the footer | Opens the feedback page | Works as expected |
+| Feedback | Fill out the form and click send off | Sends a response email to the users inbox| Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
-</details>
-
-12. As the site owner, I want users to be able to complete the tasks they require.
-
-| **Feature** | **Action** | **Expected Results** | **Actual Result** |
-|-------------|------------|----------------------|-------------------|
-| Events | Scroll down to the events section | Locating the different weekly events | Works as expected|
-
-<details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_3_a.png">
+<img src="docs/readme.md/user_stories/user_story_3_b.png">
 </details>
 
 13. As the site owner, I want users to be able to complete the tasks they require.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
-| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected|
+| Shopping list | Click on list in the nav bar | Locating the shopping list page | Works as expected |
+| Shopping list | Click on the + symbol on the list section | Creating a new line item | Works as expected |
+| Shopping list | Click on the check mark or minus to mark or delete the line item | fades out or deletes line item | works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_2.png">
+<img src="docs/readme.md/user_stories/user_story_2_a.png">
+<img src="docs/readme.md/user_stories/user_story_2_b.png">
 </details>
 
+14. As the site owner, I want users to be able to return if this access a invalid link.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| 404 | on the 404 page click on the here link, or use any of the nav buttons | brings you back to the site | Works as expected|
+
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="docs/readme.md/user_stories/user_story_14.png">
 </details>
 
 ### Unfixed Bugs
