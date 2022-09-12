@@ -15,13 +15,14 @@ body {
 
 /*Hearder Styling*/
 header {
-height: 100px;
-width: 100%;
-padding-left: 1rem;
-font-size: 1.5rem;
-font-family: 'Abril Fatface', sans-serif;
-color: #04333C;}
+    height: 100px;
+    width: 100%;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Abril Fatface', sans-serif;
+    color: #04333C;}
 
+/* Nav Styling */
 nav {
     font-size: 1.5rem;
     display: flex;
@@ -120,10 +121,9 @@ form button:hover {
     background-color: #CBEA3E;}
 .explain {
     font-size: 20px;
-    text-align: center;
-}
+    text-align: center;}
 
-/* To cover screen widths up to a maximum of 500px*/
+/* To cover screen widths up to a maximum of 500px for the list html*/
 @media screen and (max-width: 500px){
     header {
         font-size: 1rem;}
@@ -138,9 +138,7 @@ form button:hover {
     form input {
         margin-left: 10%;}
     .social-links i{
-        font-size: 2rem;}
-}
-
+        font-size: 2rem;}}
  /* End of list.html css */
 
  /* Start of Game CSS Styling */
@@ -168,7 +166,6 @@ form button:hover {
     width: 200px;
     height: 75px;
     font-size: 30px;}
-
  .play-zone {
     position: absolute;
     top: 50%;
@@ -229,8 +226,7 @@ form button:hover {
         color: #04333C;}
     .play-zone{
         height: 10px;
-        padding-bottom: 200px;
-    }
+        padding-bottom: 200px;}
     .items img {
         height: 200px;
         width: 200px;
@@ -288,12 +284,11 @@ form button:hover {
     .choices{
         display: grid;
         grid-template-columns: auto auto auto;}
-
     .choices button, .info button{
         text-align: center;
         width: 90px;
         font-size: 10px;
-    padding: 5px;}
+        padding: 5px;}
     .info, .explain{
         font-size: 20px;}
     .info button{
@@ -304,11 +299,10 @@ form button:hover {
         font-size: 15px;}
     .info p, .explain p {
         padding-left: 5px;
-        padding-right: 5px;
-    }
-     .resetButton {
+        padding-right: 5px;}
+    .resetButton {
         padding-bottom: 7vh;}
-     .info {
+    .info {
         text-align: center;}}
 
  /* Form Styling*/
@@ -382,44 +376,42 @@ form button:hover {
     cursor: pointer;
     height: 4rem;
     width: 10rem;}
-    .choices button {
-        text-align: center;
-        font-size: 15px;}}
+.choices button {
+    text-align: center;
+    font-size: 15px;}}
+/* End of Form styling */
 
-    /* 404 Page Styling*/
-    .error-page-sc {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        height: 500px;}
-        .error-page-h1{
-        margin-bottom: 20px;}
-        .error-page-h2{
-        font-size: 400%;
-        margin-bottom:20px;}
-    .error-page-p{
-        height:100px;
-        padding-top: 100px;
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 150%;}
+/* Start of 404 Page Styling*/
+.error-page-sc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;}
+.error-page-h1{
+    margin-bottom: 20px;}
+.error-page-h2{
+    font-size: 400%;
+    margin-bottom:20px;}
+.error-page-p{
+    height:100px;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 150%;}
+/* End of 404 page styling */
 
-/* FAQ Page Styling*/
-    .faq {
-        text-align: center;
-        padding-left: 30px;
-        padding-right: 10px;
-    }
-    .faq h3 {
-        padding-top: 30px;
-        text-align: left;
-    }
-    .faq p {
-        padding-top: 10px;
-        text-align: left;
-    }
-    .bottom-li {
-        padding-bottom: 50px;
-    }
+/* Start of FAQ Page Styling*/
+.faq {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 10px;}
+.faq h3 {
+    padding-top: 30px;
+    text-align: left;}
+.faq p {
+    padding-top: 10px;
+    text-align: left;}
+.bottom-li {
+    padding-bottom: 50px;}
